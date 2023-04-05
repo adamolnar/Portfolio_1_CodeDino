@@ -56,3 +56,13 @@ h1, h2 {
 .active {
     border-bottom: 2px solid #3a3a3a;
 }
+
+/* dino_laptop */
+
+#dino_laptop {
+    height: 700px;
+    width: 100%;
+    background: url(../images/dino_laptop.jpg) no-repeat ;
+  
+
+}
