@@ -10,4 +10,20 @@
 body {
     font-family: Delicious Handrawn, sans-serif;
     font-weight:400;
+    color: #3a3a3a;
+    background-color: #6AA84F;
+}
+
+/* heading and logo */
+
+h1, h2 {
+    font-family: Delicious Handrawn, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #744700;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
 }
