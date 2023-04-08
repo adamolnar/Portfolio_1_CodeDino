@@ -6,7 +6,6 @@
     border: none;
 }
 
-
 body {
     font-family: Delicious Handrawn, sans-serif;
     font-weight:400;
@@ -67,6 +66,20 @@ h1, h2 {
     font-size: 400%;
 }
 
+#container-for-icon {
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-left: 5px;
+}
+
+#image-for-icon {
+    background: url(../images/dow.png) no-repeat center center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+}
 /* navigation links */
 
 #menu {
@@ -119,7 +132,7 @@ h1, h2 {
 #dino_laptop {
     background: url(../images/Dinosaurs-Wallpapers-dinosaurs-16121866-1680-1050.jpg) no-repeat center center; 
     background-size: cover;
-    height: 800px;
+    height: 550px;
     position: relative;
     margin-top: 60px;
 
