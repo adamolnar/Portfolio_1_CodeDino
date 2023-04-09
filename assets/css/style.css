@@ -66,6 +66,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 400%;
+    letter-spacing: 4px;
 }
 
 #container-for-icon {
@@ -124,11 +125,61 @@ h1, h2 {
     text-align: center;
     color: #fff;
     font-size: 60px;
-    font-stretch: expanded;
+    font-family: Ubuntu, sans-serif;
+    
  }
 
+ #hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 75px;
 
+ }
 
+ #primary_image {
+    height: 600px;
+    min-width: 100vw;    
+    background: url(../images/WBBlog_KidsCoding.jpg) no-repeat center center;
+
+  
+    /* animates zoom effect on loading page */
+     animation-name: hero-zoom;
+     animation-duration: 5s;
+     animation-fill-mode: backwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+  from{
+      transform: scale(1.1);
+  }
+  to{
+      transform: scale(1);
+  }
+}
+
+#cover-text {
+    color: #fff;
+    font-size: 180%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 350px;
+    height: 400px;
+
+    padding: 15px;
+    background-color: rgba(19, 74, 255, 0.5);
+
+    top: 120px;
+    right: 30px;
+
+    position: absolute;
+}
+ #cover-text h2, h3 {
+    padding-top: 40px;
+ }
 
 /* footer */
 
