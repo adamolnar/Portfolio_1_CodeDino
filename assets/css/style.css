@@ -152,7 +152,7 @@ h1, h2 {
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
   from{
-      transform: scale(1.1);
+      transform: scale(1.2);
   }
   to{
       transform: scale(1);
@@ -163,11 +163,11 @@ h1, h2 {
     color: #fff;
     font-size: 180%;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     text-align: center;
 
-    width: 350px;
-    height: 400px;
+    width: 320px;
+    height: 500px;
 
     padding: 15px;
     background-color: rgba(19, 74, 255, 0.5);
@@ -179,9 +179,60 @@ h1, h2 {
 }
  #cover-text h2, h3 {
     padding-top: 40px;
+    padding-bottom: 30px;
  }
 
-/* footer */
+ #book-now-bottom {
+    display: block;
+    background: #3a3a3a;
+    color: #fff;
+    text-align: center;
+    font-family: Lilita One,sans-serif;
+    padding: 20px;
+    font-weight: 150px;
+    border-radius: 1rem;
+ }
+
+ #book-now-bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#book-now-bottom a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+ 
+/* reason-why-text */
+
+.reason-why-text {
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-align:center;
+    padding-top: 20px;
+}
+
+.list-why {
+    font-family: Lilita One, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 4px;
+    list-style-type: circle;
+    text-align: left;
+}  
+
+
+
+
+
+
+
+
+ /* footer */
 
 footer {
     height: 100px;
