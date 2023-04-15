@@ -14,7 +14,7 @@ body {
     font-family: Delicious Handrawn, sans-serif;
     font-weight:400;
     color: #3a3a3a;
-    background-color: #29AAE1;  
+    background-color: #3a3a3a;  
 }
 
 h1, h2 {
@@ -210,18 +210,16 @@ header {
 /* reason-why-text */
 
 #mid-section {
-    height: 500px;    
+    height: 400px;    
 }
 
 .left {
-    padding-top: 30px;
     width: 33%;
     float: left;
     
 }
 
 .right {
-    padding-top: 30px;
     width: 33%;
     float: right;
 }
@@ -234,8 +232,9 @@ header {
 
     
 .reason-why-text {
-    font-size: 40px;
-    letter-spacing: 2px;
+    background-image: url(../images/cyber_bg.jpg);
+    font-size: 28px;
+    letter-spacing: 1px;
     color: #fff;
     font-family: Delicious Handrawn, sans-serif ;
 }
@@ -248,19 +247,18 @@ header {
 }
 
 .left h5 {
-    width: 60%;
-    float: left;
-    margin-bottom: 20px;
-    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 2px;
     text-align: right;
+    padding: 30px 0;
+
 }  
 .right h5 {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    width: 100%;
+    margin-bottom: 2px;
     text-align: left;
+    padding: 30px 0;
+
     
 }  
 
@@ -275,7 +273,7 @@ header {
 }
 
 #circle-cover-bg {
-    background: url('../images/girl-with-qestionmark.jpg') no-repeat center center;
+    background: url('../images/stock-photo.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -290,16 +288,14 @@ header {
 
 #times {
     
-    height: 200px;
+    height: 300px;
     width: 100%;
-    overflow: hidden;
-    margin-bottom: 0 auto;
+    margin-bottom: 0;
 }
 
 #times div {
-    background-image: url(../images/summer.jpg) no-repat center;
+    
     color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
     width: 20%;
     float: left;
     padding: 30px 0 0 10px;
@@ -312,6 +308,10 @@ header {
     color: #fafafa;
 }
 
+#div1 {
+    background-image:url(../images/Summer-camp1-247x296\ -\ Copy.jpg)no-repeat;
+
+}
 
 
 
@@ -324,7 +324,7 @@ header {
 footer {
     height: 50px;
     background-color: #3a3a3a;
-    margin-top: auto;
+    margin-top: 0 auto;
     margin-bottom: 0;   
 }
 
