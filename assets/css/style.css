@@ -4,15 +4,14 @@
 * {
     margin: 0;
     padding: 0;
-box-sizing: border-box;}
+    box-sizing: border-box;}
 
-
-
-body {
+html, body {
     min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 
     font-family: Delicious Handrawn, sans-serif;
     font-weight:400;
@@ -326,10 +325,21 @@ header {
     height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
+
+  #camp-bg {
+    background-image: url(../images/summer.jpg);
+    background-size: cover;
+    
+    padding: 10px ;
+    height: 250px;
+    width: 320px;
+
+  }
   
   /* Some left and right padding inside the container */
   .container {
     padding: 0 16px;
+
   }
   
   /* Clear floats */
@@ -360,74 +370,73 @@ header {
   }
 /* event times */
 
-
-
-/* Form */
-
-.form-section {
-    height: 600px;
-    width: 50%;
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
     display: inline-block;
-    right: 0;
-}
-    
-  #form-image {
-    height: 600px;
-    width: 50%;
-    display: inline-block;
-    left:0;
-    background-image: url(../images/sign-up.webp) no-repeat  ;
-    background-size: contain;
-    position:relative;
+    border: none;
+    background: #f1f1f1;
   }
   
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
 
-/* Add styling to form */
-
-.signup-form {
-    color:#fff;
-    background-color: rgba(38, 22, 164, 0.9);
-    max-width: 300px;
-    position:absolute;
-    right:10%;
-    border-radius: 1rem;
-    
-}
-
-.signup-form h2 {
-    color:#fafafa;
-    margin-bottom: 20px;
-    
-}
-    
-.text-input {
-    background: transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius:2px;
-}
-.text-input:hover {
-    border-color: #3a3a3a;
-}
-.join-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color: #3a3a3a;
-    text-transform: uppercase;    
-    color:#fafafa;
-    display:block;
-    border-radius: 1rem;
-}
-.join-button:hover {
-    background-color:#fafafa;
-    color:#3a3a3a;
-}
 
 
 
@@ -436,8 +445,8 @@ header {
 footer {
     height: 40px;
     background-color: #3a3a3a;
-    margin-top: 0 auto;
-    margin-bottom: 0;   
+    margin-top: auto;
+    bottom: 0;
 }
 
 .social-networks {
@@ -456,10 +465,4 @@ footer {
     padding-right: 5%;
 }
 
-/* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
-    }
-}
 
