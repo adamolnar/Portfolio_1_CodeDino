@@ -22,7 +22,7 @@
                 </a>
                 <nav>
                 <ul id="menu">
-                     <li><a href="#form-section" >SIGN UP</a></li>
+                     <li><a href="#sign_up" >SIGN UP</a></li>
                      <li><a href="#about-us">ABOUT US</a></li>
                      <li><a href="index.html" >HOME</a></li>
                 </ul>
@@ -77,7 +77,35 @@
                 <div class="fakeimg" style="height:200px;">Code Kidz isn't a classroom or a strip mall franchise. With us, your child will experience personalized learning in small, collaborative classes, or 1-on-1 with their instructor. Whatever their skill level, we'll deliver properly-paced, customized curriculum. There's no replacement for individual attention.
                 </div>
             </div>
-        </section>   
+        </section>
+        <form action="/action_page.php" style="border-top:1px solid #ccc" id="sign_up">
+            <div class="container">
+              <h1>Sign Up</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+              
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+            
     </main>
     
     <footer>
