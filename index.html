@@ -35,7 +35,7 @@
                 <div id="cover-text">
                     <h2>Summer Coding Camp for Kids</h2>
                     <h3 id="fun">This is where the fun begins...</h3>
-                    <div id="book-now-bottom"><a href="#summer-camps">
+                    <div id="book-now-bottom"><a href="#summer-booking">
                     2023 Summer Schedule Available Here</a></div>
                 </div>   
             </div>    
@@ -78,7 +78,36 @@
                 </div>
             </div>
         </section>
-        <form action="/action_page.php" style="border-top:1px solid #ccc" id="sign_up">
+        <section id="summer-booking">
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <h3>Card 1</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                  </div>
+                </div>
+                
+                <div class="column">
+                  <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Some text</p>
+                    <p>Some text</p>
+                  </div>
+                </div>
+                
+                
+              </div>
+            </section>
+        <form action="/action_page.php" id="sign_up">
             <div class="container">
               <h1>Sign Up</h1>
               <p>Please fill in this form to create an account.</p>
@@ -87,11 +116,11 @@
               <label for="email"><b>Email</b></label>
               <input type="text" placeholder="Enter Email" name="email" required>
           
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <label for="password"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="password" required>
           
-              <label for="psw-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+              <label for="password-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="password-repeat" required>
               
               <label>
                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
