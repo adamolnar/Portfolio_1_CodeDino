@@ -125,17 +125,16 @@ header {
 /* reasons why */
 
  #hero-outer {
-    height: 400px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
     margin-top: 0;
     z-index: 1;
-
  }
 
  #primary_image {
-    height: 400px;
-    width: 100%;    
+    height: 500px;
+    width: 100%;  
     background: url(../images/1658902821116.png) no-repeat center center;
     background-size: cover;
 
@@ -150,7 +149,7 @@ header {
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
   from{
-      transform: scale(1.2);
+      transform: scale(1.1);
   }
   to{
       transform: scale(1);
@@ -299,7 +298,8 @@ header {
 /* Add section about us */
 
 #about-us {
-    height: 600px;   
+    height: 600px;  
+    width: 100%; 
     background-image: url(../images/artificial-intelligences-impact-on-elearning.jpg);
     background-size: cover;
     color: #fff;
@@ -308,23 +308,17 @@ header {
 
 /* Column container */
 .row {  
-    display: -ms-flexbox; /* IE10 */
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
   }
   
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
   .side {
-    -ms-flex: 30%; /* IE10 */
     flex: 30%;
     padding: 20px;
   }
   
   /* Main column */
   .main {   
-    -ms-flex: 70%; /* IE10 */
     flex: 70%;
     padding: 20px;
   }
@@ -336,11 +330,18 @@ header {
     letter-spacing: 1px;
     background-color: rgba(38, 22, 164, 0.6);
     width: 100%;
-    padding: 20px;
+    padding: 7px;
+    text-align: center;
   }
  #we-recruit {
-    padding-top: 40px;
+    padding: 20px;
+    text-align: center;
  }
+ #teacher {
+    background-image: url(../images/new_teacher.jpg);
+    background-size: cover;
+ }   
+ 
 
  .row h2 {
     margin-bottom: 10px;
@@ -351,683 +352,9 @@ header {
     margin-top: 20px;
  }
 
-  
-
-
-
-
-
-
-
-
-
-
-/* Three columns with summer camps side by side */
-
-#summer-camps {
-    height: 500px;
-    width: 100%;
-    box-sizing: inherit;
-}
-
-.column {
-    
-    float: left;
-    width: 33%;
-    margin: 20px 0;
-    padding: 0 8px;
-  }
-  
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  
-  /* Add some shadows to create a card effect */
-  .card {
-    height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  #camp-bg {
-    background-image: url(../images/summer.jpg);
-    background-size: cover;
-    
-    padding: 10px ;
-    height: 250px;
-    width: 320px;
-
-  }
-  
-  /* Some left and right padding inside the container */
-  .container {
-    padding: 0 16px;
-
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #555;
-  }
-/* event times */
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
-  
-  /* Set a style for all buttons */
-  button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  
-  button:hover {
-    opacity:1;
-  }
-  
-  /* Extra styles for the cancel button */
-  .cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-  }
-  
-  /* Float cancel and signup buttons and add an equal width */
-  .cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Add padding to container elements */
-  .container {
-    padding: 16px;
-  }
-  
-  /* Clear floats */
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Change styles for cancel button and signup button on extra small screens */
-  @media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-  }
-
-
-
-
- /* footer */
-
-footer {
-    height: 40px;
-    background-color: #3a3a3a;
-    margin-top: auto;
-    bottom: 0;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-    color: #fff;
-}
-
-.social-networks i {
-    font-size: 180%;
-    color: #fff;
-    padding-top: 10px;
-    padding-right: 5%;
-}@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Ubuntu:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Indie+Flower&family=Lilita+One&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;}
-
-html, body {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-
-    font-family: Delicious Handrawn, sans-serif;
-    font-weight:400;
-    color: #3a3a3a;
-    background-color: #fff;
-}
-
-h1, h2 {
-    font-family: Lilita One, sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    padding-left: 10px;
-}
-
-/* heading and logo */
-
-header {
-    height: 50px;
-    width: 100%;
-}
-
-.navbar {
-    height: 50px;
-    overflow: hidden;
-    background-color: #3a3a3a;
-    position: fixed;
-    top: 0;
-   
-    width: 100%;
-    z-index: 99;
-  }
-  
-  .logo{
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    font-size: 10px;
-  }
-  
-  .logo a:hover {
-    background: #ddd;
-    color: black;
-  }
-  
-  /* Position the navbar container inside the image */
-   .container {
-    position: absolute;
-    width: auto;
-   }
-  
-
-
-#logo {
-    float: left;
-    font-size: 35px;
-    letter-spacing: 2px;
-    padding-top: 4px;
-}
-
-#container-for-icon {
-    width: 38px;
-    height: 38px;
-    float: left;
-    padding: 5px;
-}
-
-#image-for-icon {
-    background: url(../images/favicon.png) no-repeat center center;
-    height: 38px;
-    width: 38px;
-    border-radius: 50%;
-
-}
-/* navigation links */
-
-#menu {
-    font-size: 140%;
-    letter-spacing: 2px;
-    font-family: Lilita One, sans-serif;
-    padding-top: 5px;
-}
-
-#menu, #logo {
-    line-height: 40px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#menu a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-.active {
-    border-bottom: 2px solid #fff;
-}
-
-
-
-
-/* reasons why */
-
- #hero-outer {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 0;
-    z-index: 1;
-
+ #why-us {
+    padding-top:20px;
  }
-
- #primary_image {
-    height: 400px;
-    width: 100%;    
-    background: url(../images/1658902821116.png) no-repeat center center;
-    background-size: cover;
-
-
-  
-    /* animates zoom effect on loading page */
-     animation-name: hero-zoom;
-     animation-duration: 5s;
-     animation-fill-mode: backwards;
-}
-
-/* creates the level of zoom for hero image */
-@keyframes hero-zoom {
-  from{
-      transform: scale(1.2);
-  }
-  to{
-      transform: scale(1);
-  }
-}
-
-#cover-text {
-    color: #fff;
-    font-size: 100%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: center;
-
-    width: 180px;
-    height: 320px;
-
-    padding: 5px;
-    background-color: rgba(38, 22, 164, 0.9);
-
-    top: 80px;
-    right: 30px;
-
-    position: absolute;
-    border-radius: 1rem;
-
-}
- #cover-text h2, h3 {
-    padding-top: 20px;
-    padding-bottom: 10px;
- }
-
- #fun {
-    padding-bottom: 40px;
-    letter-spacing: 2px;
- }
-
- #book-now-bottom {
-    display: block;
-    background: #3a3a3a;
-    color: #fff;
-    text-align: center;
-    font-family: Lilita One,sans-serif;
-    padding: 10px;
-    font-weight: 150px;
-    border-radius: 1rem;
- }
-
- #book-now-bottom a {
-    text-decoration: none;
-    color: #fff;
-}
-
-#book-now-bottom a:hover {
-    border-bottom: 2px solid #fff;
-}
-
-.active {
-    border-bottom: 2px solid #fff;
-}
-
- 
-/* reason-why-text */
-
-#mid-section {
-    height: 400px;    
-    
-}
-.left {
-    width: 33%;
-    float: left;
-    
-}
-
-.right {
-    width: 33%;
-    float: right;
-}
-
-#center {
-    width: 33%;
-    margin: 0 auto;
-}
-
-
-    
-.reason-why-text {
-    background-image: url(../images/navy-bg.avif);
-    border: 10px double white;
-    
-    font-size: 28px;
-    letter-spacing: 1px;
-    color: #fff;
-    
-    
-}
-#reason-why-main {
-    margin: 50px 0;
-    font-family: Cabin Sketch, sans-serif;
-    font-weight: 800px;
-    font-size: 150%;
-    color:#fff;
-    padding-top: 10px;
-    text-align: center;
-}
-
-.left h5 {
-    width: 100%;
-    margin-bottom: 2px;
-    text-align: right;
-    padding: 30px 0;
-    font-family: Delicious Handrawn, sans-serif ;
-
-}  
-.right h5 {
-    width: 100%;
-    margin-bottom: 2px;
-    text-align: left;
-    padding: 30px 0;
-    font-family: Delicious Handrawn, sans-serif ;
-
-    
-}  
-
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-   
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-cover-bg {
-    background: url('../images/girl-with-qestionmark.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#first {
-    font-family: Lilita One, sans-serif;
-    font-size: 10px;
-    color: #3a3a3a;
-    text-align: left;
-}
-
-/* Add section about us */
-
-#about-us {
-    height: 600px;   
-    background-image: url(../images/artificial-intelligences-impact-on-elearning.jpg);
-    background-size: cover;
-    color: #fff;
-    font-family: Lilita One, sans-serif;
-}
-
-/* Column container */
-.row {  
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-    padding: 20px;
-  }
-  
-  /* Main column */
-  .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
-    padding: 20px;
-  }
-  
-  /* Fake image, just for this example */
-  .fakeimg {
-    font-size: 24px;
-    font-weight: 200px;
-    letter-spacing: 1px;
-    background-color: rgba(38, 22, 164, 0.6);
-    width: 100%;
-    padding: 20px;
-  }
- #we-recruit {
-    padding-top: 40px;
- }
-
- .about-us h2 {
-    margin-top: 20px;
-
- }
-
-  
-
-
-
-
-
-
-
-
-
-
-/* Three columns with summer camps side by side */
-
-#summer-camps {
-    height: 500px;
-    width: 100%;
-    box-sizing: inherit;
-}
-
-.column {
-    
-    float: left;
-    width: 33%;
-    margin: 20px 0;
-    padding: 0 8px;
-  }
-  
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  
-  /* Add some shadows to create a card effect */
-  .card {
-    height: 400px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-
-  #camp-bg {
-    background-image: url(../images/summer.jpg);
-    background-size: cover;
-    
-    padding: 10px ;
-    height: 250px;
-    width: 320px;
-
-  }
-  
-  /* Some left and right padding inside the container */
-  .container {
-    padding: 0 16px;
-
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #555;
-  }
-/* event times */
-
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-  }
-  
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
-  
-  /* Set a style for all buttons */
-  button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  
-  button:hover {
-    opacity:1;
-  }
-  
-  /* Extra styles for the cancel button */
-  .cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-  }
-  
-  /* Float cancel and signup buttons and add an equal width */
-  .cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Add padding to container elements */
-  .container {
-    padding: 16px;
-  }
-  
-  /* Clear floats */
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Change styles for cancel button and signup button on extra small screens */
-  @media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-  }
 
 
 
