@@ -203,16 +203,18 @@ header {
  }
 
  #book-now-bottom {
+    height: 80px;
     display: block;
     background: #3a3a3a;
     color: #fff;
     text-align: center;
     font-family: "Lilita One",sans-serif;
+    font-size:140%;
     padding: 10px;
-    font-weight: 150;
+    font-weight: 160;
     border-radius: 1rem;
     padding-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
  }
 
  #book-now-bottom a {
