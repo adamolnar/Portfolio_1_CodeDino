@@ -8,7 +8,7 @@
     <meta name="keywords" content="code, kids coding, coding club, learn to code, kids coding bootcamp">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Code Kidz</title>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" border-radius="50%">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" style="border-radius:50%;">
     <script src="https://kit.fontawesome.com/84c12be1a5.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -34,11 +34,15 @@
         <section id="hero-outer">
             <div id="primary_image">
                 <div id="cover-text">
-                    <h2>Summer Coding Camp for Kids</h2>
+                    <h2>Tech Coding Camp for Kids</h2>
+                    <h3 id="number1">The #1 Coding Program for Kids and Teens in Austria</h3>
                     <h3 id="fun">This is where the fun begins...</h3>
-                    <div id="book-now-bottom"><a href="#book-now">
-                    2023 Summer Schedule Available Here</a></div>
+                    <p id="passionate">We're passionate about creating life-changing adventures for children and young people. If you feel the same why not join us?</p>
+                    <div id="book-now-bottom"><a href="#book-now">2023 Schedule Available Here</a></div>
                 </div>   
+                <div id="additional">
+
+                </div>
             </div>    
         </section> 
 
@@ -82,7 +86,7 @@
             </div>
         </section>
 
-        <section id="book-now">
+        <div id="book-now">
             <div class="polaroids-all">
                 <div class="polaroid-left">
                     <img src="./assets/images/hello-june.jpg" alt="June Camp" width="300" height="250" >
@@ -91,7 +95,7 @@
                     </div>
                 </div>
                 <div class="polaroid-right">
-                    <img src="./assets/images/Summer-Camp-2022-Image.jpg"alt="Summer Camp" width="300" height="250" style="border-bottom:#000000 solid 1px" >
+                    <img src="./assets/images/Summer-Camp-2022-Image.jpg" alt="Summer Camp" width="300" height="250" style="border-bottom:#000000 solid 1px" >
                     <div class="container1">
                     <p>Cinque Terre</p>
                     </div>
@@ -105,7 +109,7 @@
             </div>
 
 
-        </section>
+        </div>
 
         
         <form action="/action_page.php" id="sign_up">
@@ -115,13 +119,13 @@
               <hr>
           
               <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" required>
+              <input type="text" id="email" placeholder="Enter Email" name="email" required>
           
               <label for="password"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="password" required>
+              <input type="password" id="password" placeholder="Enter Password" name="password" required>
           
               <label for="password-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="password-repeat" required>
+              <input type="password" id="password-repeat" placeholder="Repeat Password" name="password-repeat" required>
               
               <label>
                 <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
