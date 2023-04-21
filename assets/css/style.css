@@ -16,6 +16,7 @@ html, body {
     font-weight:400;
     color: #fff;
     background-color: #011F5D;
+    
 }
 
 h1, h2 {
@@ -185,6 +186,9 @@ header {
  }
  #cover-text h2{
     font-size: 200%;
+    text-shadow: 4px 4px turquoise;
+    -webkit-text-stroke: 1px rgb(18, 18, 26);
+
  }
  #fun {
     padding-bottom: 30px;
@@ -235,7 +239,7 @@ header {
     width: 60%;
     height: 200px;
     padding: 5px;
-    background-color: rgba(101, 89, 255, 0.4);
+    background-color: rgba(38, 22, 164, 0.9);
     border-radius: 1rem;
     margin-top: 370px;    
     left: 40px;
@@ -249,9 +253,11 @@ header {
 #learn-courses {
     font-size: 50px;
     padding-top: 30px;
+    word-spacing: 5px;
     letter-spacing: 2px;
     text-shadow: 4px 4px turquoise;
-    font-weight: 40px;
+    font-weight: 20px;
+    -webkit-text-stroke: 1px rgb(18, 18, 26);
     
 
 }
@@ -375,7 +381,7 @@ header {
     text-align: left;
   }
  #we-recruit {
-    padding: 15px;
+    padding: 30px;
     text-align: left;
  }
  #teacher {
