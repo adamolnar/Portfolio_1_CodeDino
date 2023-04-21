@@ -235,7 +235,7 @@ header {
     width: 60%;
     height: 200px;
     padding: 5px;
-    background-color: rgba(0, 40, 97, 0.8);
+    background-color: rgba(101, 89, 255, 0.4);
     border-radius: 1rem;
     margin-top: 370px;    
     left: 40px;
@@ -252,6 +252,8 @@ header {
     letter-spacing: 2px;
     text-shadow: 4px 4px turquoise;
     font-weight: 40px;
+    
+
 }
 
 /* reason-why-text */
@@ -347,14 +349,12 @@ header {
     font-family: "Lilita One", sans-serif;
 }
 
-/* Column container */
 .row {  
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
   }
   
-  .side {
+.side {
     flex: 30%;
     padding: 20px;
   }
@@ -365,19 +365,18 @@ header {
     padding: 20px;
   }
   
-  /* Fake image, just for this example */
-  .fakeimg {
+.feedback {
     font-size: 24px;
     font-weight: 200;
     letter-spacing: 1px;
     background-color: rgba(38, 22, 164, 0.6);
     width: 100%;
-    padding: 7px;
-    text-align: center;
+    padding: 15px;
+    text-align: left;
   }
  #we-recruit {
-    padding: 20px;
-    text-align: center;
+    padding: 15px;
+    text-align: left;
  }
  #teacher {
     background-image: url(../images/new_teacher.jpg);
@@ -403,45 +402,18 @@ header {
 /* Founders */
 
 .founders {
-    width: 100%;
-    padding: 25px;
+height: 400px;
+width: 100%;
+padding: 20px;
 }
 
-.flip-card1 {
+.flip-card {
     background-color: transparent;
-    width: 270px;
-    height: 250px;
+    width: 333px;
+    height: 300px;
     perspective: 1000px;
     float: left;
   }
-  .flip-card2 {
-    background-color: transparent;
-    width: 270px;
-    height: 250px;
-    perspective: 1000px;
-    float: right;
-
-  }
-
-  .flip-card3 {
-    background-color: transparent;
-    width: 270px;
-    height: 250px;
-    perspective: 1000px;
-    float: left;
-    margin-left: 40px;
-
-  }
-
-  .flip-card4 {
-    background-color: transparent;
-    width: 270px;
-    height: 250px;
-    perspective: 1000px;
-    float: right;  
-    margin-right: 40px;
-}
-
   
   .flip-card-inner {
     position: relative;
@@ -471,10 +443,19 @@ header {
   }
   
   .flip-card-back {
-    background-color: #2980b9;
+    background-color: rgba(38, 22, 164, 0.6);
     color: white;
     transform: rotateY(180deg);
   }
+
+#founder-text {
+    flex: 60%;
+    right: 0;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 350px;
+    line-height: 1.25;
+}
 
 /* book-now section */
 
