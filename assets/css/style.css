@@ -411,7 +411,7 @@ header {
 height: 600px;
 width: 100%;
 padding: 15px 20px;
-border-top: 2px solid #fff;
+border-bottom: 2px solid #fff;
 margin-top: 60px;
 }
 
@@ -483,7 +483,6 @@ margin-top: 60px;
 #book-now {
     height: 700px;
     width: 100%;
-    border: 2px solid red;
     padding: 60px;
     font-family: "Lilita One", sans-serif;
 }
@@ -493,15 +492,12 @@ margin-top: 60px;
     width: 100%;
     background-image: url(../images/tech_2023_photo_by_miha_creative_on_shutterstock\ \(1\).jpg);
     background-size: cover;
-    text-align: center;
+    text-align: left;
+    list-style-type: none;
+    font-size: 45px;
   }
 
-  #august {
-    font-size: 45px;
-    float: left;
-    padding-left: 50px;
-  }
-  
+
   .month ul {
     margin: 0;
     padding: 0;
