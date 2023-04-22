@@ -347,7 +347,7 @@ header {
 /* Add section about us */
 
 #about-us {
-    height: 1000px;  
+    height: 1300px;  
     width: 100%; 
     background-image: url(../images/artificial-intelligences-impact-on-elearning.jpg);
     background-size: cover;
@@ -408,9 +408,16 @@ header {
 /* Founders */
 
 .founders {
-height: 400px;
+height: 600px;
 width: 100%;
-padding: 20px;
+padding: 15px 20px;
+border-top: 2px solid #fff;
+margin-top: 60px;
+}
+
+#founder-title {
+    padding-bottom: 40px;
+    font-size: 250%;
 }
 
 .flip-card {
@@ -463,49 +470,111 @@ padding: 20px;
     line-height: 1.25;
 }
 
+.flip-card-back > p {
+    line-height: 10px;
+}
+
+.flip-card-back {
+    font-size: 140%;
+}
+
 /* book-now section */
 
 #book-now {
-    height: 400px;
+    height: 700px;
     width: 100%;
     border: 2px solid red;
-    padding: 40px;
+    padding: 60px;
+    font-family: "Lilita One", sans-serif;
 }
 
-.polaroid-left {
-    height: 300px;
-    width: 30%;
-    background-color: white;
-    float: left;
-    background-color: transparent;
-    perspective: 1000px;
-
-
-    
-}
-  
-.polaroid-right {
-    height: 300px;
-    width: 30%;
-    background-color: white;
-    float: right;
-
-} 
-
-.polaroid-center {
-    height: 300px;
-    width: 30%;
-    background-color: white;
-    margin: 0 auto;
-
-}    
-
-.container1 {
-    height: 40px;
+.month {
+    padding: 150px 25px;
     width: 100%;
+    background-image: url(../images/tech_2023_photo_by_miha_creative_on_shutterstock\ \(1\).jpg);
+    background-size: cover;
     text-align: center;
-    padding: 10px 20px;
-}
+  }
+
+  #august {
+    font-size: 45px;
+    float: left;
+    padding-left: 50px;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin: 0;
+    padding: 30px 0;
+    background-color: #ddd;
+    font-size: 30px;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 30px 0;
+    background: #eee;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:16px;
+    color: #777;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: turquoise;
+    color: white !important
+  }
+  
+ 
+
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+  }
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }
 
   
 
