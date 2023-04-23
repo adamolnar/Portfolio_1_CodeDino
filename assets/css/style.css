@@ -452,7 +452,6 @@ margin-top: 60px;
   
   .flip-card-front {
     background-color: #bbb;
-    color: black;
   }
   
   .flip-card-back {
@@ -470,13 +469,9 @@ margin-top: 60px;
     line-height: 1.25;
 }
 
-.flip-card-back > p {
-    line-height: 10px;
-}
 
-.flip-card-back {
-    font-size: 140%;
-}
+
+
 
 /* book-now section */
 
@@ -640,7 +635,7 @@ input[type=text], input[type=password] {
   
   /* Add padding to container elements */
   .container {
-    padding: 16px;
+    padding: 50px;
   }
   
   /* Clear floats */
