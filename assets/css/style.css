@@ -490,6 +490,7 @@ margin-top: 60px;
     width: 100%;
     padding: 60px;
     font-family: "Lilita One", sans-serif;
+    
 }
 
 .month {
@@ -502,27 +503,39 @@ margin-top: 60px;
     font-size: 45px;
   }
 
+  .a::marker { 
+    content:none;
+  }
+
 
   .month ul {
     margin: 0;
     padding: 0;
+    
   }
+
+  
   
   .month ul li {
     color: white;
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    list-style: none;
+    hanging-punctuation: none;
+
   }
   
   .month .prev {
     float: left;
     padding-top: 10px;
+
   }
   
   .month .next {
     float: right;
     padding-top: 10px;
+
   }
   
   .weekdays {
@@ -582,14 +595,14 @@ margin-top: 60px;
 
 /* form  */
 
-form {
+#sign_up {
     height: 600px;
     width: 100%;
     font-family: "Lilita One", sans-serif;
     font-weight: 100;
     color: #fff;
     letter-spacing: 2px;
-    padding: 30px 100px 30px 30px ;
+    padding: 50px;
 
 }
 
@@ -645,7 +658,8 @@ input[type=text], input[type=password] {
   
   /* Add padding to container elements */
   .container {
-    padding: 50px;
+    padding: 10px;
+    width: 50%;
   }
   
   /* Clear floats */
