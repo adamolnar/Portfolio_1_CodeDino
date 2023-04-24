@@ -28,7 +28,7 @@ h1, h2 {
 
 /* heading and logo */
 
-header {
+nav {
     height: 50px;
     width: 100%;
 }
@@ -65,6 +65,7 @@ header {
     padding: 16px;
     text-decoration: none;
     font-size: 10px;
+    
   }
   
   .logo a:hover {
@@ -79,9 +80,10 @@ header {
   
 #logo {
     float: left;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 2px;
     padding-top: 4px;
+    margin-left: 15px;
 }
 
 
@@ -213,22 +215,20 @@ header {
  #passionate {
     font-family: "Lilita One",sans-serif;
     text-transform: none;
+    padding-bottom: 40px;
 
  }
 
  #book-now-bottom {
-    height: 80px;
     display: block;
     background: #3a3a3a;
     color: #fff;
     text-align: center;
     font-family: "Lilita One",sans-serif;
-    font-size:140%;
+    font-size:25px;
     padding: 10px;
-    font-weight: 160;
     border-radius: 1rem;
-    padding-bottom: 10px;
-    bottom: 0;
+    margin-block-end: 10px;
  }
 
  #book-now-bottom a {
@@ -266,11 +266,25 @@ header {
     word-spacing: 5px;
     letter-spacing: 2px;
     text-shadow: 4px 4px turquoise;
-    font-weight: 20px;
+    font-weight: 20;
     -webkit-text-stroke: 1px rgb(18, 18, 26);
-    
-
 }
+
+@media screen and (max-width:720px) {
+    #cover-text, #additional {width: 13.1%;}
+  }
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }
+
+
+
 
 /* reason-why-text */
 
@@ -553,7 +567,7 @@ margin-top: 60px;
   .weekdays li {
     display: inline-block;
     width: 13.6%;
-    color: #666;
+    color: black;
     text-align: center;
   }
   
@@ -570,7 +584,7 @@ margin-top: 60px;
     text-align: center;
     margin-bottom: 5px;
     font-size:16px;
-    color: #777;
+    color: black;
   }
   
   .days li .active {
@@ -645,14 +659,14 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-    background-color: turquoise;
+    background-color: #208000;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
-    opacity: 0.9;
+    font-size: 20px;
   }
   
   button:hover {
@@ -662,7 +676,7 @@ input[type=text], input[type=password] {
   /* Extra styles for the cancel button */
   .cancelbtn {
     padding: 14px 20px;
-    background-color: #f44336;
+    background-color: #800020;
   }
   
   /* Float cancel and signup buttons and add an equal width */
@@ -704,7 +718,6 @@ footer {
     bottom: 0;
     font-family:  sans-serif;
     letter-spacing: 3px;
-    font-weight: none;
     text-align: center;
     margin-bottom: 0;
 
