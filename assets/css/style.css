@@ -23,7 +23,6 @@ h1, h2 {
     font-family: "Lilita One", sans-serif;
     text-transform: uppercase;
     color: #fff;
-    padding-left: 10px;
 }
 
 /* heading and logo */
@@ -270,18 +269,62 @@ nav {
     -webkit-text-stroke: 1px rgb(18, 18, 26);
 }
 
-@media screen and (max-width:720px) {
-    #cover-text, #additional {width: 13.1%;}
-  }
+@media screen and (max-width:1200px) {
+
+    .outer {
+        font-size: 16px;
+        overflow: hidden;
+    }
+    #primary_image {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #cover-text{
+        width: 25%;
+        height: 400px;
+        float: right;
+        padding: 10px;
+        margin-top: 170px;
+}
+    #book-now-bottom {
+        font-size: 16px;
+        padding: 5px;
+        margin-block-end: 5px;
+    }
+
+    #club {
+        font-size: 40px;
+    }
+    
+    
+    #additional {
+        width: 50%;
+        float: left;
+        padding: 10px;
+        clear: both;
+    }
+
+    #learn-courses{
+        font-size: 30px;
+    }
+
+   
+
+    }
+
+    
+
+
+/*  
+@media screen and (max-width: 420px) {
+    #cover-text, #additional {width: 12.5%;}
+}   
   
-  @media screen and (max-width: 420px) {
-    .weekdays li, .days li {width: 12.5%;}
-    .days li .active {padding: 2px;}
-  }
-  
-  @media screen and (max-width: 290px) {
-    .weekdays li, .days li {width: 12.2%;}
-  }
+@media screen and (max-width: 290px) {
+    #cover-text, #additional  {width: 12.2%;}
+  } 
+*/
 
 
 
@@ -368,6 +411,26 @@ nav {
     text-align: left;
 }
 
+@media screen and (max-width: 1200px) {
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
 /* Add section about us */
 
 #about-us {
@@ -428,6 +491,12 @@ nav {
     padding-top:70px;
  }
 
+ @media screen and (max-width:1200px){
+.feedback, .why-us {
+    font-size: 20px;    
+}
+ }
+ 
 
 /* Founders */
 
@@ -494,7 +563,11 @@ margin-top: 60px;
 }
 
 
-
+@media screen and (max-width:1200px){
+    #founder-text  {
+        font-size: 20px;
+    }
+}
 
 
 /* book-now section */
@@ -633,7 +706,6 @@ form h1 {
 }
 
 #fill-the-form {
-    padding-left: 130px;
     font-size: 16px;
 }
 
@@ -708,6 +780,12 @@ input[type=text], input[type=password] {
     }
   }
 
+  @media screen and (max-width:1200px){
+    #sign {
+        padding: 20px 0 ;
+    }
+}
+
 
  /* footer */
 
@@ -777,6 +855,4 @@ footer p {
     font-size: 200%;
     color: #fff;
     width: 10%;
-
-
 }
