@@ -529,9 +529,9 @@ h1, h2 {
 }
 
 
-/* book-now section */
+/* calendar section */
 
-#book-now {
+#calendar {
     height: 750px;
     width: 100%;
     padding: 60px;
@@ -634,7 +634,10 @@ h1, h2 {
   
   @media screen and (max-width: 420px) {
     .weekdays li, .days li {width: 12.5%;}
+    .weekdays {font-size: 18px;}
     .days li .active {padding: 2px;}
+    #calendar {padding: 0;}
+    #august {font-size: 25px;}
   }
   
   @media screen and (max-width: 290px) {
@@ -731,7 +734,12 @@ button:hover {
     padding: 0;
     width: auto;
     margin: 0;
+    font-size: 12px;
 }
+form h1 {
+    font-size: 35px;
+}
+#sign_up {height: max-content;}
 }
 
 @media screen and (max-width:1200px){
