@@ -15,8 +15,7 @@ html, body {
     font-family: "Delicious Handrawn", sans-serif;
     font-weight:400;
     color: #fff;
-    background-color: #011F5D;
-    
+    background-color: #011F5D;   
 }
 
 h1, h2 {
@@ -25,12 +24,7 @@ h1, h2 {
     color: #fff;
 }
 
-/* heading and logo */
-
-nav {
-    height: 50px;
-    width: 100%;
-}
+/* navbar and logo */
 
 .navbar {
     height: 50px;
@@ -40,7 +34,7 @@ nav {
     top: 0;
     width: 100%;
     z-index: 99;
-  }
+}
 
 #container-for-icon {
     width: 38px;
@@ -56,27 +50,6 @@ nav {
     border-radius: 50%;
 }
   
-.logo{
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    font-size: 10px;
-    
-  }
-  
-  .logo a:hover {
-    background: #ddd;
-    color: black;
-  }
-  
-   .container {
-    position: absolute;
-    width: auto;
-   }
-  
 #logo {
     float: left;
     font-size: 40px;
@@ -84,7 +57,6 @@ nav {
     padding-top: 4px;
     margin-left: 15px;
 }
-
 
 /* navigation links */
 
@@ -118,44 +90,24 @@ nav {
     border-bottom: 2px solid #fff;
 }
 
+/* main image with text */
 
-/* For medium screen sizes from 950px wide and down 
-@media screen and (max-width: 950px) {
-
-    .navbar {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-}*/
-
-
-
-/* reasons why */
-
- #hero-outer {
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 0;
-    z-index: 1;
- }
-
- #primary_image {
+#primary_image {
     height: 650px;
     width: 100%;  
     background: url(../images/1658902821116.png) no-repeat center center;
     background-size: cover;
+    overflow: hidden;
 
-    /* animates zoom effect on loading page */
+/* animates zoom effect on loading page */
+
      animation-name: hero-zoom;
      animation-duration: 5s;
      animation-fill-mode: backwards;
 }
 
 /* creates the level of zoom for hero image */
+
 @keyframes hero-zoom {
   from{
       transform: scale(1.1);
@@ -181,6 +133,7 @@ nav {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+/* creates the level of zoom for text on the image */
 
 @keyframes text-zoom {
     from{
@@ -189,36 +142,35 @@ nav {
     to{
         transform: scale(1);
     }
-  }
+}
 
- #cover-text h2, h3 {
+#cover-text h2, h3 {
     padding-top: 20px;
     padding-bottom: 10px;
- }
- #cover-text h2{
+}
+#cover-text h2{
     font-size: 200%;
     text-shadow: 4px 4px turquoise;
     -webkit-text-stroke: 1px rgb(18, 18, 26);
+}
 
- }
- #fun {
+#fun {
     padding-bottom: 30px;
     letter-spacing: 2px;
- }
+}
 
- #number1 {
+#number1 {
     font-family: "Lilita One",sans-serif;
     font-weight: 200;
  }
 
- #passionate {
+#passionate {
     font-family: "Lilita One",sans-serif;
     text-transform: none;
     padding-bottom: 40px;
+}
 
- }
-
- #book-now-bottom {
+#book-now-bottom {
     display: block;
     background: #3a3a3a;
     color: #fff;
@@ -228,9 +180,9 @@ nav {
     padding: 10px;
     border-radius: 1rem;
     margin-block-end: 10px;
- }
+}
 
- #book-now-bottom a {
+#book-now-bottom a {
     text-decoration: none;
     color: #fff;
 }
@@ -256,7 +208,6 @@ nav {
     animation-name: text-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
 }
 
 #learn-courses {
@@ -269,63 +220,59 @@ nav {
     -webkit-text-stroke: 1px rgb(18, 18, 26);
 }
 
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
 @media screen and (max-width:1200px) {
 
-    .outer {
-        font-size: 16px;
-        overflow: hidden;
-    }
-    #primary_image {
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    #cover-text{
-        width: 25%;
-        height: 600px;
-        float: right;
-        padding: 10px;
-        margin-top: 30px;
+.outer {
+    font-size: 16px;
+    overflow: hidden;
 }
-    #book-now-bottom {
-        font-size: 16px;
-        padding: 5px;
-        margin-block-end: 5px;
-    }
+#primary_image {
+    width: 100%;
+    margin: 0 auto;
+}
+#cover-text{
+    width: 25%;
+    height: 600px;
+    float: right;
+    padding: 10px;
+    margin-top: 30px;
+}
+#book-now-bottom {
+    font-size: 16px;
+    padding: 5px;
+    margin-block-end: 5px;
+}
+#club {
+    font-size: 40px;
+}
+#additional {
+    width: 60%;
+    float: left;
+    padding: 10px;
+    clear: both;
+    margin-top: 425px;
+}
+#learn-courses{
+    font-size: 30px;
+}
+}
 
-    #club {
-        font-size: 40px;
-    }
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px){
+
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
     
-    
-    #additional {
-        width: 60%;
-        float: left;
-        padding: 10px;
-        clear: both;
-        margin-top: 425px;
-    }
-
-    #learn-courses{
-        font-size: 30px;
-    }
-
-   
-
-    }
-
-    
+}
 
 
-/*  
-@media screen and (max-width: 420px) {
-    #cover-text, #additional {width: 12.5%;}
-}   
-  
-@media screen and (max-width: 290px) {
-    #cover-text, #additional  {width: 12.2%;}
-  } 
-*/
+
 
 
 
@@ -413,29 +360,27 @@ nav {
 }
 
 @media screen and (max-width: 1200px) {
+    
 
-    #left-about, #right-about {
+    #left, #right {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about {
+    #center {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    hr {
-        display: none;
-    }
+  
 }
 
 /* Add section about us */
 
 #about-us {
-    height: 1300px;  
     width: 100%; 
     background-image: url(../images/artificial-intelligences-impact-on-elearning.jpg);
     background-size: cover;
@@ -453,7 +398,6 @@ nav {
     padding: 20px;
   }
   
-  /* Main column */
   .main {   
     flex: 70%;
     padding: 20px;
@@ -484,29 +428,40 @@ nav {
     letter-spacing: 2px;
 
  }
- #feedback-title {
-    margin-top: 20px;
- }
 
- #why-us {
+
+
+#why-us {
     padding-top:70px;
- }
-
- @media screen and (max-width:1200px){
-.feedback, .why-us {
-    font-size: 20px;    
 }
- }
+
+@media screen and (max-width:1200px){
+
+
+.feedback, .why-us, #founder-text {
+    font-size: 16px;
+    height: fit-content;
+
+}
+}
+
+@media screen and (max-width: 600px) {
+.main, .side, .feedback {
+    padding: 0;
+}
+.feedback, .why-us, #founder-text {
+    font-size: 12px;
+    height: fit-content;
+}
+}
  
 
-/* Founders */
+/* Founder  */
 
-.founders {
-height: 600px;
-width: 100%;
-padding: 15px 20px;
-border-bottom: 2px solid #fff;
-margin-top: 60px;
+.founder {
+    flex: 40%;
+    padding: 20px;
+    border-bottom: 2px solid #fff;
 }
 
 #founder-title {
@@ -520,9 +475,9 @@ margin-top: 60px;
     height: 300px;
     perspective: 1000px;
     float: left;
-  }
+}
   
-  .flip-card-inner {
+.flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -530,36 +485,35 @@ margin-top: 60px;
     transition: transform 0.6s;
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
+}
   
-  .flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-  }
+}
   
-  .flip-card-front, .flip-card-back {
+.flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-  }
+}
   
-  .flip-card-front {
+.flip-card-front {
     background-color: #bbb;
-  }
+}
   
-  .flip-card-back {
+.flip-card-back {
     background-color: rgba(38, 22, 164, 0.6);
     color: white;
     transform: rotateY(180deg);
-  }
+}
 
 #founder-text {
     flex: 60%;
-    right: 0;
+    padding: 15px;
     font-size: 25px;
     text-align: center;
-    margin-left: 350px;
     line-height: 1.25;
 }
 
@@ -567,6 +521,10 @@ margin-top: 60px;
 @media screen and (max-width:1200px){
     #founder-text  {
         font-size: 20px;
+        width: 100%;
+        padding: 10px;
+        float: left;
+
     }
 }
 
@@ -699,7 +657,7 @@ margin-top: 60px;
 }
 
 form h1 {
-    padding: 0 200px 40px 200px;
+    padding-bottom: 30px;
     text-shadow: 4px 4px turquoise;
     -webkit-text-stroke: 1px rgb(18, 18, 26);
     font-size: 50px;
@@ -758,11 +716,9 @@ input[type=text], input[type=password] {
     width: 50%;
   }
   
-  /* Add padding to container elements */
   .container {
     padding: 10px;
-    width: 50%;
-    width: 50%;
+    width: 70%;
     margin: auto;
 
 }
@@ -781,11 +737,34 @@ input[type=text], input[type=password] {
     }
   }
 
-  @media screen and (max-width:1200px){
-    #sign {
-        padding: 20px 0 ;
+  @media screen and (max-width:900px){
+    .sign_up {
+        width: 100%;
+        margin: 0;
+        
     }
+
+    #fill-the-form {
+        padding-bottom: 10px;}
 }
+
+
+/* Media query for sign up section for small screen sizes below 900px width 
+
+@media screen and (max-width: 800px) {
+    
+    .container {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+    }
+    #sign_up {
+       padding: 0;
+       width: auto;
+       font-size: 16px;
+
+    }
+}*/
 
 
  /* footer */
@@ -857,3 +836,5 @@ footer p {
     color: #fff;
     width: 10%;
 }
+
+
