@@ -529,14 +529,13 @@ h1, h2 {
 }
 
 
-/* calendar section */
+/*     calendar section     */
 
 #calendar {
     height: 750px;
     width: 100%;
     padding: 60px;
-    font-family: "Lilita One", sans-serif;
-    
+    font-family: "Lilita One", sans-serif;    
 }
 
 .month {
@@ -547,69 +546,62 @@ h1, h2 {
     text-align: left;
     list-style-type: none;
     font-size: 45px;
-  }
+}
 
-  .a::marker { 
+.a::marker { 
     content:none;
-  }
+}
 
-
-  .month ul {
+.month ul {
     margin: 0;
-    padding: 0;
-    
-  }
+    padding: 0; 
+}
 
-  
-  
-  .month ul li {
+.month ul li {
     color: white;
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 3px;
     list-style: none;
     hanging-punctuation: none;
-
-  }
+}
   
-  .month .prev {
+.month .prev {
     float: left;
     padding-top: 10px;
-
-  }
+}
   
-  .month .next {
+.month .next {
     float: right;
     padding-top: 10px;
+}
 
-  }
-
-  #august {
+#august {
     font-size: 130%;
     padding-left: 70px;
-  }
+}
   
-  .weekdays {
+.weekdays {
     margin: 0;
     padding: 30px 0;
     background-color: #ddd;
     font-size: 30px;
-  }
+}
   
-  .weekdays li {
+.weekdays li {
     display: inline-block;
     width: 13.6%;
     color: black;
     text-align: center;
-  }
+}
   
-  .days {
+.days {
     padding: 30px 0;
     background: #eee;
     margin: 0;
-  }
+}
   
-  .days li {
+.days li {
     list-style-type: none;
     display: inline-block;
     width: 13.6%;
@@ -617,35 +609,38 @@ h1, h2 {
     margin-bottom: 5px;
     font-size:16px;
     color: black;
-  }
+}
   
-  .days li .active {
+.days li .active {
     padding: 5px;
     background: turquoise;
     color: white !important
-  }
+}
   
- 
-
-  /* Add media queries for smaller screens */
-  @media screen and (max-width:720px) {
+/*  media queries for calendar */
+@media screen and (max-width:720px) {
+    #calendar { padding:10px 10px; height: fit-content; }
     .weekdays li, .days li {width: 13.1%;}
-  }
+    .month { padding:0;font-size: 100%;}
+}
   
-  @media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
+    #calendar {padding: 10px 10px; height: fit-content;}
     .weekdays li, .days li {width: 12.5%;}
     .weekdays {font-size: 18px;}
     .days li .active {padding: 2px;}
-    #calendar {padding: 0;}
-    #august {font-size: 25px;}
-  }
+    #august { padding:70px; font-size: 25px;}
+    .month { padding: 0;}
+
+}
   
-  @media screen and (max-width: 290px) {
+@media screen and (max-width: 290px) {
+    #calendar {padding: 10px 10px; height: fit-content;}
     .weekdays li, .days li {width: 12.2%;}
-  }
+    #august {padding:50px; font-size: 20px;}
+    .month {padding: 0;}
 
-  
-
+}
 
 /*      sign up form section      */
 
