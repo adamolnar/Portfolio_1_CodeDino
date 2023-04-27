@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
     
-
 html, body {
     min-height: 100vh;
     width: 100%;
@@ -23,8 +22,10 @@ h1, h2 {
     text-transform: uppercase;
     color: #fff;
 }
+ 
 
-/* navbar and logo */
+
+/*     Navbar and logo     */
 
 .navbar {
     height: 50px;
@@ -58,7 +59,7 @@ h1, h2 {
     margin-left: 15px;
 }
 
-/* navigation links */
+/*     Navigation links     */
 
 #menu {
     font-size: 140%;
@@ -90,7 +91,9 @@ h1, h2 {
     border-bottom: 2px solid #fff;
 }
 
-/* main image with text */
+
+
+/*     Main image with text     */
 
 #primary_image {
     height: 650px;
@@ -99,14 +102,18 @@ h1, h2 {
     background-size: cover;
     overflow: hidden;
 
-/* animates zoom effect on loading page */
+
+/* Animates zoom effect on loading page */
 
      animation-name: hero-zoom;
      animation-duration: 5s;
      animation-fill-mode: backwards;
 }
 
-/* creates the level of zoom for hero image */
+.outer {
+    overflow: hidden;
+}
+/* Creates the level of zoom for hero image */
 
 @keyframes hero-zoom {
   from{
@@ -133,7 +140,7 @@ h1, h2 {
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-/* creates the level of zoom for text on the image */
+/* Creates the level of zoom for text on the image */
 
 @keyframes text-zoom {
     from{
@@ -191,8 +198,6 @@ h1, h2 {
     border-bottom: 2px solid #fff;
 }
 
-/* Add aditiona text to the hero image */ 
-
 #additional {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -222,43 +227,14 @@ h1, h2 {
 
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
-
 @media screen and (max-width:1200px) {
-
-.outer {
-    font-size: 16px;
-    overflow: hidden;
-}
-#primary_image {
-    width: 100%;
-    margin: 0 auto;
-}
-#cover-text{
-    width: 25%;
-    height: 600px;
-    float: right;
-    padding: 10px;
-    margin-top: 30px;
-}
-#book-now-bottom {
-    font-size: 16px;
-    padding: 5px;
-    margin-block-end: 5px;
-}
-#club {
-    font-size: 40px;
-}
-#additional {
-    width: 60%;
-    float: left;
-    padding: 10px;
-    clear: both;
-    margin-top: 425px;
-}
-#learn-courses{
-    font-size: 30px;
-}
+.outer {font-size: 16px; overflow: hidden;}
+#primary_image {width: 100%; margin: 0 auto;}
+#cover-text{ width: 25%; height: 600px; float: right; padding: 10px;margin-top: 30px}
+#book-now-bottom {font-size: 16px; padding: 5px; margin-block-end: 5px;}
+#club {font-size: 40px}
+#additional {width: 60%; padding: 10px; margin-top: 425px; height: fit-content;}
+#learn-courses{font-size: 30px; padding: 30px;}
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -270,8 +246,6 @@ h1, h2 {
 @media screen and (max-width: 800px) {
     
 }
-
-
 
 
 
@@ -299,13 +273,12 @@ h1, h2 {
 }
 
 #mid-section {
-    height: 400px;    
-    
+    height: 400px;        
 }
+
 .left {
     width: 34%;
-    float: left;
-    
+    float: left;   
 }
 
 .right {
@@ -331,11 +304,8 @@ h1, h2 {
     margin-bottom: 2px;
     text-align: left;
     padding: 25px 0;
-    font-family: "Delicious Handrawn", sans-serif ;
-
-    
+    font-family: "Delicious Handrawn", sans-serif ;    
 }  
-
 
 #circle-container {
     width: 300px;
@@ -359,16 +329,16 @@ h1, h2 {
     text-align: left;
 }
 
-/*media query for about us section*/
+/* Media queries for about us section */
 
 @media screen and (max-width: 1200px) {
-    .reason-why-text{height: fit-content;}
-    #reason-why-main{margin: 0; font-size: 120%; padding: 20px;}
-    .left {width: 50%; float: left; padding: 0;}
-    .left h5, .right h5{padding: 20px;}
-    .right{width: 50%; float: right; padding: 0;}
-    #center {clear: both; width: 100%; float: left; padding: 0;}
-    .left h5{text-align: none; padding: 10px;}  
+.reason-why-text{height: fit-content;}
+#reason-why-main{margin: 0; font-size: 120%; padding: 20px;}
+.left {width: 50%; float: left; padding: 0;}
+.left h5, .right h5{padding: 20px;}
+.right{width: 50%; float: right; padding: 0;}
+#center {clear: both; width: 100%; float: left; padding: 0;}
+.left h5{text-align: none; padding: 10px;}  
 }
 
 @media screen and (max-width:1000px){
@@ -418,7 +388,7 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-/*    media query for about us section    */
+/*Media queries for about us section*/
 
 @media screen and (max-width:1000px){
 .feedback, .why-us, #founder-text {font-size: 18px;}
@@ -443,6 +413,8 @@ h1, h2 {
     flex: 40%;
     padding: 20px;
     border-bottom: 2px solid #fff;
+    font-family: 'Lilita One', sans-serif;
+    letter-spacing: 2px;
 }
 
 #founder-title {
@@ -500,7 +472,7 @@ h1, h2 {
 
 
 
-/*     calendar section     */
+/*     Calendar section     */
 
 #calendar {
     height: 750px;
@@ -588,34 +560,34 @@ h1, h2 {
     color: white !important
 }
   
-/*  media queries for calendar */
+/* Media queries for calendar */
+
 @media screen and (max-width:720px) {
-    #calendar { padding:10px ; height: fit-content; }
-    .weekdays li, .days li {width: 13.1%;}
-    .month { font-size: 100%;}
+#calendar { padding:10px ; height: fit-content; }
+.weekdays li, .days li {width: 13.1%;}
+.month { font-size: 100%;}
 }
   
 @media screen and (max-width: 420px) {
-    #calendar {padding: 10px ; height: fit-content;}
-    .weekdays li, .days li {width: 12.5%;}
-    .weekdays {font-size: 18px;}
-    .days li .active {padding: 2px;}
-    #august { padding:70px; font-size: 25px;}
-    .month { padding: 0;}
-
+#calendar {padding: 10px ; height: fit-content;}
+.weekdays li, .days li {width: 12.5%;}
+.weekdays {font-size: 18px;}
+.days li .active {padding: 2px;}
+#august { padding:70px; font-size: 25px;}
+.month { padding: 0;}
 }
   
 @media screen and (max-width: 290px) {
-    #calendar {padding: 10px ; height: fit-content;}
-    .weekdays li, .days li {width: 12.2%;}
-    .weekdays {padding:10px 0;}
-    #august {padding:50px; font-size: 20px;}
-    .month {padding: 0;}
-    .days {padding: 10px 0;}
-
+#calendar {padding: 10px ; height: fit-content;}
+.weekdays li, .days li {width: 12.2%;}
+.weekdays {padding:10px 0;}
+#august {padding:50px; font-size: 20px;}
+.month {padding: 0;}
+.days {padding: 10px 0;}
 }
 
-/*      sign up form section      */
+
+/*      Sign up form section      */
 
 #sign_up {
     height: 650px;
@@ -693,35 +665,23 @@ button:hover {
     display: table;
 }
   
-/*media query for sign up form*/
+/* Media queries for sign up form*/
+
 @media screen and (max-width: 500px) {
-.cancelbtn, .signupbtn {
-    width: 100%;
-}
-.container{
-    padding: 0;
-    width: auto;
-    margin: 0;
-    font-size: 12px;
-}
-form h1 {
-    font-size: 35px;
-}
+.cancelbtn, .signupbtn {width: 100%;}
+.container{ padding: 0; width: auto;margin: 0;font-size: 12px;}
+form h1 {font-size: 35px;}
 #sign_up {height: max-content;}
 }
 
 @media screen and (max-width:1200px){
-#sign_up {
-    width: 100%;
-    margin: 0;
-}
-#fill-the-form {
-    padding-bottom: 10px;}
+#sign_up {width: 100%;margin: 0;}
+#fill-the-form {padding-bottom: 10px;}
 }
 
 
 
-/*     footer     */
+/*     Footer     */
 
 footer {
     background-color: #3a3a3a;
@@ -776,24 +736,14 @@ footer p {
     width: 10%;
 }
 
-/* media query for the footer */
+/* Media queries for the footer */
 
 @media screen and (max-width:700px){
-footer h2, footer h3, footer p {
-    margin: 0;
-    width: 100%;
-    font-size: 12px;
-}
-footer h2 {
-    font-size: 16px;
-}
+footer h2, footer h3, footer p {margin: 0;width: 100%;font-size: 12px;}
+footer h2 {font-size: 16px;}
 }
 
 @media screen and (max-width:300px){
-footer h2, footer h3, footer p {
-      word-spacing: none; 
-}
-.social-networks i{
-    font-size: 100%;
-}
+footer h2, footer h3, footer p {word-spacing: none; }
+.social-networks i{font-size: 100%;}
 }
