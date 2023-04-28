@@ -391,17 +391,18 @@ h1, h2 {
 /*Media queries for about us section*/
 
 @media screen and (max-width:1000px){
-.feedback, .why-us, #founder-text {font-size: 18px;}
+.feedback, .why-us, #we-recruit {font-size: 18px;}
 }
 
 @media screen and (max-width: 700px) {
-.feedback, .why-us, #founder-text {font-size: 14px;}
+.feedback, .why-us, #we-recruit {font-size: 14px; width: 100%; height:fit-content;}
 }
 
 @media screen and (max-width: 600px) {
+.feedback, .why-us, #we-recruit {font-size: 14px; width: 100%; height:fit-content;}
 #about-us { padding: 10px;}
-.feesback {height: none;}
-.side, .main { flex: none; height: fit-content;}
+.feesback {height: fit-content;}
+.side, .main { padding:0; height: fit-content;}
 
 }
 
@@ -464,11 +465,33 @@ h1, h2 {
 
 #founder-text {
     flex: 60%;
-    padding: 15px;
-    font-size: 25px;
+    font-size: 24px;
     text-align: center;
-    line-height: 1.25;
+    
 }
+
+#text {
+    padding-left: 30%;
+
+}
+
+
+/*Media queries for about us section*/
+
+@media screen and (max-width:1200px){
+ #founder-title {padding-bottom: 20px; font-size: 200%;} 
+ #text{padding-left: 40%; font-size: 18px;}  
+}
+
+@media screen and (max-width:1000px){
+#text{padding-left: 350px; font-size: 18px; text-align: left;}    
+}
+
+@media screen and (max-width:700px){
+#text{width:100%; clear:left; font-size: 16px; padding: 10px 0; text-align: center;}    
+  
+}
+
 
 
 
