@@ -329,22 +329,42 @@ h1, h2 {
     text-align: left;
 }
 
-/* Media queries for about us section */
+/* Media queries for reason why section */
 
 @media screen and (max-width: 1200px) {
-.reason-why-text{height: fit-content;}
-#reason-why-main{margin: 0; font-size: 120%; padding: 20px;}
-.left {width: 50%; float: left; padding: 0;}
-.left h5, .right h5{padding: 20px;}
-.right{width: 50%; float: right; padding: 0;}
+.reason-why-text{height: 750px;}
+#reason-why-main{margin: 0; font-size: 130%; padding: 30px;}
+.left {width: 50%; float: left; padding: 20px 0;}
+.left h5{padding: 10px 40px 10px 0;}
+.right h5{padding: 10px 0 10px 40px;}
+.right{width: 50%; float: right; padding: 20px 0;}
 #center {clear: both; width: 100%; float: left; padding: 0;}
-.left h5{text-align: none; padding: 10px;}  
+.left h5{ padding: 10px;}  
 }
 
-@media screen and (max-width:1000px){
-
+@media screen and (max-width:910px){
+.reason-why-text{display: table;}
+#reason-why-main{text-decoration: underline;}
+.left{width: 100%; padding: 0;}    
+.left h5{ float: left; text-align: center; padding: 10px 0; font-size: 30px;}
+.right{width: 100%; padding: 0;}
+.right h5{ float: left; text-align: center; padding: 10px 0; font-size: 30px;}
+i.fa-solid.fa-check {font-size: 0;}
+#center{padding: 20px;}
 }
   
+@media screen and (max-width:450px){
+#reason-why-main { font-size: 100%; padding-bottom: 20px;}
+.left h5 {padding: 10px; font-size: 16px;}
+.right h5 {padding: 10px; font-size: 16px;}
+}
+
+@media screen and (max-width:350px){
+#reason-why-text{display: block;}
+.left h5, .right h5 {font-size: 14px;}
+#center{padding: 50px 0;}
+#circle-container{width: 150px; height: 150px;}
+
 
 
 /*     Add section about us     */
@@ -395,14 +415,13 @@ h1, h2 {
 }
 
 @media screen and (max-width: 700px) {
-.feedback, .why-us, #we-recruit {font-size: 14px; width: 100%; height:fit-content;}
+.feedback, .why-us, #we-recruit {font-size: 14px; width: 100%;}
 }
 
 @media screen and (max-width: 600px) {
 .feedback, .why-us, #we-recruit {font-size: 14px; width: 100%; height:fit-content;}
 #about-us { padding: 10px;}
-.feesback {height: fit-content;}
-.side, .main { padding:0; height: fit-content;}
+.main, .side{padding: 0;}
 
 }
 
@@ -501,10 +520,12 @@ h1, h2 {
 .founder{padding: 0;}
 #responsive{width: 100%; height: auto;}
 #founder-title{font-size: 140%; text-align: center;}
+.flip-card-inner{ transition: none; transform-style: flat;}
 .flip-card{width: 100%; height: auto; }
+.flip-card-front{position: static;}
 .flip-card-back{position:static; transform: none;}
 .flip-card-back h2{font-size: 20px; padding: 0;}
-.flip-card-inner{ transition: none; transform-style: none;}
+.flip-card-back p{font-size: 14px; padding-bottom: 5px;}
 }
 
 
@@ -714,7 +735,7 @@ form h1 {font-size: 35px;}
 #sign_up {width: 100%;margin: 0;}
 #fill-the-form {padding-bottom: 10px;}
 }
-
+}
 
 
 /*     Footer     */
