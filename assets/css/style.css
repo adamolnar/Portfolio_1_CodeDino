@@ -411,7 +411,6 @@ h1, h2 {
 /*     Founder    */
 
 .founder {
-    flex: 40%;
     padding: 20px;
     border-bottom: 2px solid #fff;
     font-family: 'Lilita One', sans-serif;
@@ -424,9 +423,9 @@ h1, h2 {
 }
 
 .flip-card {
-    background-color: transparent;
-    width: 333px;
     height: 300px;
+    width: 333px;
+    background-color: transparent;
     perspective: 1000px;
     float: left;
 }
@@ -466,12 +465,16 @@ h1, h2 {
 #founder-text {
     flex: 60%;
     font-size: 24px;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 #text {
     padding-left: 30%;
+}
+
+#responsive{
+    width: 333px;
+    height: 300px;
 
 }
 
@@ -488,11 +491,16 @@ h1, h2 {
 }
 
 @media screen and (max-width:700px){
-#text{width:100%; clear:left; font-size: 16px; padding: 10px 0; text-align: center;}    
-  
+#text{width:100%; clear:left; font-size: 16px; padding: 10px 0; }    
+#founder-title{font-size: 180%;}  
+.flip-card{width: 100%;}
+.flip-card-front{background-color: #f9f9fb;}
 }
 
-
+@media screen and (max-width:365px){
+.founder{padding: 0;}
+#responsive{width: 250px;}
+}
 
 
 /*     Calendar section     */
