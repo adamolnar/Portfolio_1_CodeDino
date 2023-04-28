@@ -475,11 +475,11 @@ h1, h2 {
 #responsive{
     width: 333px;
     height: 300px;
-
 }
 
 
-/*Media queries for about us section*/
+
+/*Media queries for founder section*/
 
 @media screen and (max-width:1200px){
  #founder-title {padding-bottom: 20px; font-size: 200%;} 
@@ -499,7 +499,12 @@ h1, h2 {
 
 @media screen and (max-width:365px){
 .founder{padding: 0;}
-#responsive{width: 250px;}
+#responsive{width: 100%; height: auto;}
+#founder-title{font-size: 140%; text-align: center;}
+.flip-card{width: 100%; height: auto; }
+.flip-card-back{position:static; transform: none;}
+.flip-card-back h2{font-size: 20px; padding: 0;}
+.flip-card-inner{ transition: none; transform-style: none;}
 }
 
 
