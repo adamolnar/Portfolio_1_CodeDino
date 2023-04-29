@@ -237,15 +237,7 @@ h1, h2 {
 #learn-courses{font-size: 30px; padding: 30px;}
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px){
 
-}
-
-/* For small screen sizes below 800px width */
-@media screen and (max-width: 800px) {
-    
-}
 
 
 
@@ -259,7 +251,7 @@ h1, h2 {
     font-size: 28px;
     letter-spacing: 2px;
     color: #fff;   
-    height: 550px; 
+    height: 700px; 
 }
 
 #reason-why-main {
@@ -273,7 +265,8 @@ h1, h2 {
 }
 
 #mid-section {
-    height: 400px;        
+    height: 400px; 
+    padding-top: 50px;       
 }
 
 .left {
@@ -364,7 +357,7 @@ i.fa-solid.fa-check {font-size: 0;}
 .left h5, .right h5 {font-size: 14px;}
 #center{padding: 50px 0;}
 #circle-container{width: 150px; height: 150px;}
-
+}
 
 
 /*     Add section about us     */
@@ -415,14 +408,16 @@ i.fa-solid.fa-check {font-size: 0;}
 }
 
 @media screen and (max-width: 700px) {
-.feedback, .why-us, #we-recruit {font-size: 14px; width: 100%;}
+.feedback, .why-us, #we-recruit {font-size: 14px; }
 }
 
 @media screen and (max-width: 600px) {
 .feedback, .why-us, #we-recruit {font-size: 14px; width: 100%; height:fit-content;}
 #about-us { padding: 10px;}
-.main, .side{padding: 0;}
+}
 
+@media screen and (max-width: 350px){
+    .side, .main{padding: 0;}
 }
 
 
@@ -735,7 +730,7 @@ form h1 {font-size: 35px;}
 #sign_up {width: 100%;margin: 0;}
 #fill-the-form {padding-bottom: 10px;}
 }
-}
+
 
 
 /*     Footer     */
