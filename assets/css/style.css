@@ -91,6 +91,19 @@ h1, h2 {
     border-bottom: 2px solid #fff;
 }
 
+/* Media queries */
+
+@media screen and (max-width:650px){
+#menu{font-size: 80%;}
+#menu li{margin-right: 15px;}
+}
+
+@media screen and (max-width:450px){
+.navbar{height: fit-content;}  
+#menu {clear: both;}
+
+}
+
 
 
 /*     Main image with text     */
@@ -245,9 +258,9 @@ h1, h2 {
 }
 
 @media screen and (max-width:430px){
-#primary_image {padding: 10px;}
-#cover-text{width: 100%;  right: 0%;  }
-#additional{width: 100%; bottom: 15px; left: 0%; }
+#primary_image {height:800px;  background-size: cover; }
+#cover-text{width: 100%;  right: 0%; bottom: 0; border-radius: 0%; }
+#additional{width: 100%; left: 0%; top:0; border-radius: 0%; }
 #learn-courses{font-size: 25px; padding: 10px;}   
 }
 
