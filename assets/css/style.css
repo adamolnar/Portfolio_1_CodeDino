@@ -651,7 +651,7 @@ footer p {
 /* Media queries for navigation bar*/
 
 @media screen and (max-width:650px){
-    #menu{font-size: 80%;}
+    #menu{font-size: 100%;}
     #menu li{margin-right: 15px;}
     }
     
@@ -789,6 +789,7 @@ footer p {
     .days li .active {padding: 2px;}
     #august { padding:70px; font-size: 25px;}
     .month { padding: 0;}
+    .container{width: 100%;}
     }
       
 @media screen and (max-width: 290px) {
