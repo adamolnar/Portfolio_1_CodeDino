@@ -652,7 +652,7 @@ footer p {
 
 @media screen and (max-width:650px){
     #menu{font-size: 100%;}
-    #menu li{margin-right: 15px;}
+    #menu li{margin-right: 25px;}
     }
     
 @media screen and (max-width:450px){
