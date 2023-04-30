@@ -657,8 +657,7 @@ footer p {
     
 @media screen and (max-width:450px){
     .navbar{height: fit-content;}  
-    #menu {clear: both;}
-    
+    #menu {clear: both; padding-left: 20px; float: left;}
     }
 
 /* Media queries for primary image section*/
@@ -681,7 +680,8 @@ footer p {
     #primary_image {height:800px;  background-size: cover; }
     #cover-text{width: 100%;  right: 0%; bottom: 0; border-radius: 0%; }
     #additional{width: 100%; left: 0%; top:40px; border-radius: 0%; }
-    #learn-courses{font-size: 25px; padding: 10px;}   
+    #learn-courses{font-size: 25px; padding: 10px;} 
+    #passionate{font-size: large;}  
     }
  
 /* Media queries for reason why section */
@@ -710,8 +710,8 @@ footer p {
       
 @media screen and (max-width:450px){
     #reason-why-main { font-size: 100%; padding-bottom: 20px;}
-    .left li {padding: 10px; font-size: 16px;}
-    .right li {padding: 10px; font-size: 16px;}
+    .left li {padding: 10px; font-size: 20px;}
+    .right li {padding: 10px; font-size: 20px;}
     }
     
 @media screen and (max-width:350px){
@@ -733,12 +733,13 @@ footer p {
     }
     
 @media screen and (max-width: 600px) {
-    .feedback, .why-us, #we-recruit {font-size: 14px; width: 100%; height:fit-content;}
-    #about-us { padding: 10px;}
+    .feedback, .why-us, #we-recruit {font-size: 20px; width: 100%; height:fit-content;}
+    #about-us { padding: 10px; width: 100%;}
+    .side, .main{padding: 0;}
     }
     
 @media screen and (max-width: 350px){
-        .side, .main{padding: 0;}
+       
     }
 
 /*Media queries for founder section*/
@@ -753,14 +754,15 @@ footer p {
    }
    
 @media screen and (max-width:700px){
-   #text{width:100%; clear:left; font-size: 16px; padding: 10px 0; }    
+   #text{width:100%; clear:left; font-size: 20px; padding: 10px 0; text-align: center;}    
    #founder-title{font-size: 180%;}  
    .flip-card{width: 100%;}
    .flip-card-front{background-color: #f9f9fb;}
+   .founder{padding: 0;}
    }
    
 @media screen and (max-width:365px){
-   .founder{padding: 0;}
+   
    #responsive{width: 100%; height: auto;}
    #founder-title{font-size: 140%; text-align: center;}
    .flip-card-inner{ transition: none; transform-style: flat;}
@@ -781,7 +783,7 @@ footer p {
     }
       
 @media screen and (max-width: 420px) {
-    #calendar {padding: 10px ; height: fit-content;}
+    #calendar {padding: 50px 10px ; height: fit-content;}
     .weekdays li, .days li {width: 12.5%;}
     .weekdays {font-size: 18px;}
     .days li .active {padding: 2px;}
