@@ -533,7 +533,7 @@ h1, h2 {
 }
 
 form h1 {
-    padding-bottom: 30px;
+    padding: 40px 0 30px 0;
     text-shadow: 4px 4px turquoise;
     -webkit-text-stroke: 1px rgb(18, 18, 26);
     font-size: 50px;
@@ -598,6 +598,12 @@ button:hover {
     display: table;
 }
   
+/*  animation duration for sign up heading */
+.animate__animated, .animate__bounce {
+    --animate-duration: 5s;
+    --animate-delay: 5s;
+  }
+  
 
 
 
@@ -657,7 +663,7 @@ footer p {
     width: 10%;
 }
 
-/* Media queries */
+/* Media queries for navigation bar*/
 
 @media screen and (max-width:650px){
     #menu{font-size: 80%;}
@@ -670,7 +676,7 @@ footer p {
     
     }
 
-/* Media queries */
+/* Media queries for primary image section*/
 
 @media screen and (max-width:1200px) {
     #cover-text{ width: 25%; padding: 10px;}
@@ -807,16 +813,23 @@ footer p {
     .days {padding: 10px 0;}
     }
     
-   
+/* Media queries for sign-up form */
+
+@media screen and (max-width:400px){
+    .container{width: 100%;}
+    .cancelbtn, .signupbtn {font-size: 12px;}
+}
+
 
 /* Media queries for the footer */
 
 @media screen and (max-width:700px){
-footer h2, footer h3, footer p {margin: 0;width: 100%;font-size: 12px;}
-footer h2 {font-size: 16px;}
-}
+    footer h2, footer h3, footer p {margin: 0;width: 100%;font-size: 12px;}
+    footer h2 {font-size: 16px;}
+    }
+    
+    @media screen and (max-width:300px){
+    footer h2, footer h3, footer p {word-spacing: none; }
+    .social-networks i{font-size: 100%;}
+    }
 
-@media screen and (max-width:300px){
-footer h2, footer h3, footer p {word-spacing: none; }
-.social-networks i{font-size: 100%;}
-}
