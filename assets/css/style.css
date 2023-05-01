@@ -663,10 +663,10 @@ footer p {
 /* Media queries for primary image section*/
 
 @media screen and (max-width:1200px) {
-    #cover-text{ width: 25%; padding: 10px;}
+    #cover-text{ width: 35%; right: 10px; bottom: 25px;}
     #book-now-bottom {font-size: 16px; padding: 5px; }
     #club {font-size: 40px}
-    #additional {width: 60%; padding: 10px; }
+    #additional {width: 50%; left: 10px; bottom: 25px;}
     #learn-courses{font-size: 30px; padding: 30px;}
     }
     
@@ -677,7 +677,7 @@ footer p {
     }
     
 @media screen and (max-width:430px){
-    #primary_image {height:800px;  background-size: cover; }
+    #primary_image {height:800px;  background-size: inherit; }
     #cover-text{width: 100%;  right: 0%; bottom: 0; border-radius: 0%; }
     #additional{width: 100%; left: 0%; top:40px; border-radius: 0%; }
     #learn-courses{font-size: 25px; padding: 10px;} 
