@@ -74,17 +74,53 @@ This website targets parents and children who want to learn more about coding.
      - The sign up form is valuable to the user as it gives them ability to sign up to join the Kids Code club.
      - The SIGN UP header has infinite bounce animation.
      - The Sign Up form is accessable from the navigation bar.
-     - Email
-
-
-
-
-
-
-
-
      
 
+![screenshot of sign up section](/assets/images/Screenshot_form.jpg)
 
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" style="border-radius:50%;">
+
+* The Footer
+   
+     - The Footer contains information for the user how to get in touch with the club.
+     - The footer contains social media icons to users can find the Code Kidz club on Facebook, Instagram, Twitter and YouTube.
+     - The contact section is valuable to the user as it gives the ability to find and contact the Code Kidz club if they need to. 
+
+![screenshot of the footer](/assets/images/Screenshot_footer.jpg)
+
+## Testing 
+
+* I tested that this page works in different browsers: Chrome, Microsoft Edge, Firefox, Safari.
+* I confirmed that this project is responive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+* I confirmed that navigation, primary image, about us, sign up and contact text are all redable and easy to understand.
+* I have confirmed that the form works: requires entries in every field, will only accept an email in the email field, and the submision buttom works.
+
+### Bugs
+
+#### Solved Bugs
+
+* When I deployed my project to GitHUb Pages I discovered my projecet's favicon was not not showing as website icon.
+* I discovered this was because I had absolute file path such as thi in my code:
+
+      <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" style="border-radius:50%;">
+
+* Removing the starting / fixed the problem.
+
+### Validator Testing
+
+* HTML 
+     - No errors were returned when passing through the official W3C validator.
+
+* CSS 
+     - No errors were found when passing through the official (Jigsaw) validator.
+ 
+ * Accessinility 
+     - I confirmed that the color and fonts chosen are easy to read and accessible by running it through Lighthouse in devtools:
+
+![ecreenshot of the lighthouse accessibility](/assets/images/Screenshot_lighthouse.png) 
+
+### Unfixed Bugs
+
+No unfixed bugs.
+
+
 
