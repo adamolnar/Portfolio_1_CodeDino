@@ -1,4 +1,5 @@
-# Code Kidz
+![scrrenshot of Code Kidz logo](/assets/images/screenshot.logo.jpg)
+
 
 The Code Kidz website is a page for parents and children looking for more information about coding clubs for kids. This website listing main benefits for kids development while having fun coding and all their workshops are free of charge. 
 
@@ -6,7 +7,7 @@ Users of this website can find out more about clubs Founder biography, the way t
 
 This website targets parents and children who want to learn more about coding. 
 
-![screenshot of media responsivnes](/assets/images/Screenshot_iamresposnive.jpg)
+![screenshot of media responsivnes](/assets/images/Screenshot_iamresposnive.jpg )
 
 ## Features
 
@@ -48,6 +49,7 @@ This website targets parents and children who want to learn more about coding.
 
 ![screenshot of about us section](/assets/images/Screenshot_aboutus.png)
 
+
 * The main / About Us Section / Founder
 
      - The Founder is additional information of The About Us Section.
@@ -55,6 +57,27 @@ This website targets parents and children who want to learn more about coding.
      - On the right side from the founder image is more biogaphy information of the founder.
 
 ![screenshot of founder](/assets/images/Screenshot_founder.png)
+
+
+* The main / Calendar Section
+
+     - This section is accessable from text container in primary image.
+     - It shows summer month August where user can choose a day when to join club.
+     - Calendar is not resposive to user as javascript language is not required for this project.
+
+![screenshot of the calendar](/assets/images/Screenshot_calendar.jpg)
+
+
+* The main / The Sign Up Form
+
+     - The sign up section has a form to collect details from child#s guardian so they can sign up to the Code Kidz club.
+     - The sign up form is valuable to the user as it gives them ability to sign up to join the Kids Code club.
+     - The SIGN UP header has infinite bounce animation.
+     - The Sign Up form is accessable from the navigation bar.
+     - Email
+
+
+
 
 
 
