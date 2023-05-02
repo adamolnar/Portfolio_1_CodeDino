@@ -61,3 +61,7 @@ This website targets parents and children who want to learn more about coding.
 
 
      
+
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png" style="border-radius:50%;">
+
