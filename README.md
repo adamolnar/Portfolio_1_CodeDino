@@ -9,6 +9,8 @@ This website targets parents and children who want to learn more about coding.
 
 ![screenshot of media responsivnes](/assets/images/Screenshot_iamresposnive.jpg )
 
+#
+
 ## Features
 
 * Header / Navigation
@@ -87,6 +89,8 @@ This website targets parents and children who want to learn more about coding.
 
 ![screenshot of the footer](/assets/images/Screenshot_footer.jpg)
 
+#
+
 ## Testing 
 
 * I tested that this page works in different browsers: Chrome, Microsoft Edge, Firefox, Safari.
@@ -121,6 +125,18 @@ This website targets parents and children who want to learn more about coding.
 ### Unfixed Bugs
 
 No unfixed bugs.
+
+#
+
+## Deployment
+
+* The site was deployed to GiHub pages. The steps to deploy are as follows:
+     - In the GiHub repository, navigate to the Settings tab.
+     - From the source section drop-down menu, select the Master Branch.
+     - Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here - 
+https://adamolnar.github.io/Portfolio_1_CodeDino/)[Code Kidz]
 
 
 
