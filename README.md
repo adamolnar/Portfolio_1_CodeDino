@@ -136,7 +136,14 @@ No unfixed bugs.
      - Once the master branch has been selected, the page provided the link to the completed website.
 
 The live link can be found here - 
-https://adamolnar.github.io/Portfolio_1_CodeDino/)[Code Kidz]
+[Code Kidz](https://adamolnar.github.io/Portfolio_1_CodeDino/)
 
+## Credits
+
+### Content 
+* The code to make social media links was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/08-responsive-elements/05-responsive-gallery/index.html) Project.
+
+### Media
+* The image in the header was taken from 
 
 
