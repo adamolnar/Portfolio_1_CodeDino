@@ -141,9 +141,12 @@ The live link can be found here -
 ## Credits
 
 ### Content 
+* The layout of the website and content of README file was based on Ci [PP1 Sample Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
 * The code to make social media links was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/08-responsive-elements/05-responsive-gallery/index.html) Project.
 
 ### Media
-* The image in the header was taken from 
+* The image for the favicon and logo icon was taken from [microsoft.com](https://www.microsoft.com/en-gb/p/like-a-dino/9nlpr8kqzz7c?activetab=pivot:overviewtab)
+* The image in the header was taken from [123RF](https://www.123rf.com/clipart-vector/code_kids.html)
+* The background image fot the Reason Why section was taken from [iStock](https://www.istockphoto.com/de/search/2/image?mediatype=illustration&phrase=blue+chalkboard+background)
 
 
