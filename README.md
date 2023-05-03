@@ -1,4 +1,4 @@
-![scrrenshot of Code Kidz logo](/assets/images/screenshot.logo.jpg)
+![scrrenshot of Code Kidz logo](/assets/images/cn..jpg)
 
 
 The Code Kidz website is a page for parents and children looking for more information about coding clubs for kids. This website listing main benefits for kids development while having fun coding and all their workshops are free of charge. 
@@ -20,7 +20,7 @@ This website targets parents and children who want to learn more about coding.
      - The navigation bar positioning is fixed which makes it accessible while scrolling down the page and easy to navigate in each section.
      - The naviagtion is in font color white and makes good contrast with the dark background color.
 
-![screenshot of navigation bar](/assets/images/Screenshot_navbar.jpg)
+![screenshot of navigation bar](/assets/images/menu.png)
 
 
 * The Header
@@ -136,13 +136,15 @@ No unfixed bugs.
      - Once the master branch has been selected, the page provided the link to the completed website.
 
 The live link can be found here - 
-[Code Kidz](https://adamolnar.github.io/Portfolio_1_CodeDino/)
+[Code Kidz](https://adamolnar.github.io/Portfolio_1_CodeDino/).
 
 ## Credits
 
 ### Content 
-* The layout of the website and content of README file was based on Ci [PP1 Sample Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
-* The code to make social media links was taken from the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/08-responsive-elements/05-responsive-gallery/index.html) Project.
+* The layout of the website and content of README file was based on Ci [PP1 Sample Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/).
+* The code to make the Header, Reason Why and social media link was inspired on the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/08-responsive-elements/05-responsive-gallery/index.html) Project.
+* The code for flip-card, calendar and sign up form was based on [W3S](https://www.w3schools.com/howto/howto_css_flip_card.asp).
+* Animation for Sign Up text was taken from [Animate.css](https://animate.style/)
 
 ### Media
 * The image for the favicon and logo icon was taken from [microsoft.com](https://www.microsoft.com/en-gb/p/like-a-dino/9nlpr8kqzz7c?activetab=pivot:overviewtab)
