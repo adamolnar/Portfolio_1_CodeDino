@@ -148,5 +148,8 @@ The live link can be found here -
 * The image for the favicon and logo icon was taken from [microsoft.com](https://www.microsoft.com/en-gb/p/like-a-dino/9nlpr8kqzz7c?activetab=pivot:overviewtab)
 * The image in the header was taken from [123RF](https://www.123rf.com/clipart-vector/code_kids.html)
 * The background image fot the Reason Why section was taken from [iStock](https://www.istockphoto.com/de/search/2/image?mediatype=illustration&phrase=blue+chalkboard+background)
+* The background of middle circle part from Reason Why section was taken from [iStock](https://www.istockphoto.com/de/vektor/schulkinder-lernen-programmieren-im-naturwissenschaftlichen-klassenzimmer-vektor-gm1199512978-343227386)
+* The image for the founder was taken from [Adobe Stock](https://stock.adobe.com/at/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=0&filters%5Bcontent_type%3Atemplate%5D=0&filters%5Bcontent_type%3A3d%5D=0&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&filters%5Bfree_collection%5D=0&order=relevance&serie_id=296903736)
+
 
 
