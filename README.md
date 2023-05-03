@@ -13,7 +13,7 @@ This website targets parents and children who want to learn more about coding.
 
 ## Features
 
-* Header / Navigation
+* Navigation
 
      - Featured at the top of the page, the navigation shows the club name in the left corner : Code Kidz and Logo of the club that links to the top of the page.
      - Right navigation links: Home, About Us, Sign Up which link to different sections of the same page.
@@ -23,7 +23,7 @@ This website targets parents and children who want to learn more about coding.
 ![screenshot of navigation bar](/assets/images/Screenshot_navbar.jpg)
 
 
-* The main / Primary Image Section
+* The Header
 
      - The header shows the name of the club, using cyber animation background image. Background image is animated with zoom effect backwards.
      - Two text containers are featured in that section, first container about course approach for learning which is fun, intuitive and gamified, and second text container expains for who is this club, the runcking in the country and why should useres join the club.
@@ -34,7 +34,7 @@ This website targets parents and children who want to learn more about coding.
 ![screenshot of primary image section](/assets/images/Screenshot_primaryimage.jpg)
 
 
-* The main / The Reason Why Section
+* The Main / The Reason Why Section
 
      - This section is devided to 3 parts: left, right and center.
      - The Reason Why Section is listing some of positive effects on kids development while learning how to code in the left and the right part.
@@ -43,7 +43,7 @@ This website targets parents and children who want to learn more about coding.
 ![screenshot of reason why section](/assets/images/Screenshot_reasonwhy.jpg)
 
 
-* The main / About Us Section 
+* The Main / About Us Section 
 
      - The About Us section is devided to four parts: About Us, Our Team, Feedback and Why Us?.
      - Each part expains why should user join the club, informs that classes are for free and teachers are recruited from best univerities. Also in Feedback part is short opinion of the club from one of the parent, and in Why Us? part is more information about approach used in teaching kids of how to code.
@@ -52,7 +52,7 @@ This website targets parents and children who want to learn more about coding.
 ![screenshot of about us section](/assets/images/Screenshot_aboutus.png)
 
 
-* The main / About Us Section / Founder
+* The Main / About Us Section / Founder
 
      - The Founder is additional information of The About Us Section.
      - It contains flip-card: front side - image of the founder, and back side- name of the founder and her life motto.
@@ -61,7 +61,7 @@ This website targets parents and children who want to learn more about coding.
 ![screenshot of founder](/assets/images/Screenshot_founder.png)
 
 
-* The main / Calendar Section
+* The Main / Calendar Section
 
      - This section is accessable from text container in primary image.
      - It shows summer month August where user can choose a day when to join club.
@@ -70,7 +70,7 @@ This website targets parents and children who want to learn more about coding.
 ![screenshot of the calendar](/assets/images/Screenshot_calendar.jpg)
 
 
-* The main / The Sign Up Form
+* The Main / The Sign Up Form
 
      - The sign up section has a form to collect details from child#s guardian so they can sign up to the Code Kidz club.
      - The sign up form is valuable to the user as it gives them ability to sign up to join the Kids Code club.
@@ -84,7 +84,7 @@ This website targets parents and children who want to learn more about coding.
 * The Footer
    
      - The Footer contains information for the user how to get in touch with the club.
-     - The footer contains social media icons to users can find the Code Kidz club on Facebook, Instagram, Twitter and YouTube.
+     - The footer contains social media icons so users can find the Code Kidz club on Facebook, Instagram, Twitter and YouTube.
      - The contact section is valuable to the user as it gives the ability to find and contact the Code Kidz club if they need to. 
 
 ![screenshot of the footer](/assets/images/Screenshot_footer.jpg)
