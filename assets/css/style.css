@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Delicious+Handrawn&family=Lilita+One&display=swap');   
 
+/* Styling the body of the page*/
 * {
     margin: 0;
     padding: 0;
@@ -25,8 +26,10 @@ h1, h2 {
  
 
 
-/*     Navbar and logo     */
+/* Navbar and logo */
 
+
+/* Container for the navigation menu*/
 .navbar {
     height: 50px;
     overflow: hidden;
@@ -37,19 +40,22 @@ h1, h2 {
     z-index: 99;
 }
 
+/* Container for the page icon */
 #container-for-icon {
    
     float: left;
     padding: 5px;
 }
 
+/* Styling logo icon*/
 #image-for-icon {
     background: url(../images/favicon.png) no-repeat center center;
     height: 38px;
     width: 38px;
     border-radius: 50%;
 }
-  
+
+/* Styling logo */
 #logo {
     float: left;
     font-size: 40px;
@@ -58,8 +64,10 @@ h1, h2 {
     margin-left: 15px;
 }
 
-/*     Navigation links     */
+/* Navigation links */
 
+
+/* Container for the page navigation links*/
 #menu {
     font-size: 140%;
     letter-spacing: 2px;
@@ -71,6 +79,7 @@ h1, h2 {
     line-height: 40px;
 }
 
+/* Styling for the page navigation links */
 #menu li {
     float: right;
     list-style-type: none;
@@ -81,13 +90,13 @@ h1, h2 {
     text-decoration: none;
     color: #fff;
 }
-
+ /* Hoover effect*/
 #menu a:hover {
     border-bottom: 2px solid #fff;
 }
 
-
 /* Main image with text */
+
 
 /* Container for the main background image*/
 #primary_image {
