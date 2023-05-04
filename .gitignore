@@ -7,3 +7,11 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
+
+
+#first {
+    font-family: "Lilita One", sans-serif;
+    font-size: 10px;
+    color: #3a3a3a;
+    text-align: left;
+}

@@ -87,8 +87,9 @@ h1, h2 {
 }
 
 
-/*     Main image with text     */
+/* Main image with text */
 
+/* Container for the main background image*/
 #primary_image {
     height: 650px;
     width: 100%;  
@@ -119,6 +120,7 @@ h1, h2 {
   }
 }
 
+/* Container for text posisioned on top of the main image*/
 #cover-text {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -147,6 +149,7 @@ h1, h2 {
     }
 }
 
+/* Styling for the headers*/
 #cover-text h2, h3 {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -157,6 +160,7 @@ h1, h2 {
     -webkit-text-stroke: 1px rgb(18, 18, 26);
 }
 
+/*Styling for the text*/
 #fun {
     padding-bottom: 30px;
     letter-spacing: 2px;
@@ -173,6 +177,7 @@ h1, h2 {
     padding-bottom: 40px;
 }
 
+/*Container for the interactive calendar buttom */
 #book-now-bottom {
     display: block;
     background: #3a3a3a;
@@ -184,16 +189,18 @@ h1, h2 {
     border-radius: 1rem;
     margin-block-end: 10px;
 }
-
+/* Styling for the calendar buttom*/
 #book-now-bottom a {
     text-decoration: none;
     color: #fff;
 }
 
+/* Hover efect */
 #book-now-bottom a:hover {
     border-bottom: 2px solid #fff;
 }
 
+/* Second container for text positioned on the main image */
 #additional {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -211,6 +218,7 @@ h1, h2 {
     animation-fill-mode: forwards;
 }
 
+/* Styling text in additional text container */
 #learn-courses {
     padding: 25px;
     font-size: 250%;
@@ -222,8 +230,10 @@ h1, h2 {
 }
 
 
-/* reason-why-text */
+/* Reason-why-text */
 
+
+/* Styling for the container reason why*/
 .reason-why-text {
     background-image: url(../images/navy-bg.avif);
     border: 10px double white;
@@ -243,6 +253,7 @@ h1, h2 {
     text-align: center;
 }
 
+/* Container for 3 columns*/
 #mid-section {
     height: 400px; 
     padding-top: 50px;       
@@ -263,6 +274,7 @@ h1, h2 {
     margin: 0 auto;
 }
 
+/* Styling for the left column list */
 .left li {
     width: 100%;
     font-size: 23px;
@@ -273,6 +285,7 @@ h1, h2 {
     list-style-type: none;
 }  
 
+/* Styling for the left column list */
 .right li {
     width: 100%;
     font-size: 23px;
@@ -283,6 +296,7 @@ h1, h2 {
     list-style-type: none;  
 }  
 
+/* Styling for the middle column list */
 #circle-container {
     width: 300px;
     height: 300px;
@@ -291,6 +305,7 @@ h1, h2 {
     background-color: #00316B;
 }
 
+/* Styling of the background image*/
 #circle-cover-bg {
     background: url('../images/kids_comp.jpg') no-repeat center center;
     background-size: contain;
@@ -298,18 +313,10 @@ h1, h2 {
     border-radius: 50%;
 }
 
-#first {
-    font-family: "Lilita One", sans-serif;
-    font-size: 10px;
-    color: #3a3a3a;
-    text-align: left;
-}
+/* Add section about us  */
 
 
-
-/*     Add section about us     */
-
-
+/* Container for section divided to left nad right column*/
 #about-us {
     width: 100%;
 }
@@ -317,18 +324,21 @@ h1, h2 {
     width: 100%;
     display: flex;
     flex-wrap: wrap; 
-  }
-  
+}
+
+/* Styling for the right side of the container*/
 .side {
     flex: 30%;
     padding: 20px;
-  }
-  
+}
+
+/* Styling for the left side of the container*/
 .main {   
     flex: 70%;
     padding: 20px;
-  }
-  
+}
+
+/* Styling of the left and right rows*/
 .feedback {
     height: 200px;
     font-size: 24px;
@@ -337,10 +347,8 @@ h1, h2 {
     background-color: rgba(38, 22, 164, 0.6);
     width: 100%;
     padding: 20px;
-    text-align: left;
-    
-  }
-
+    text-align: left;   
+}
 
 .row h2 {
     padding-top: 50px;
@@ -348,7 +356,8 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
-/*     Founder    */
+/* Founder */
+
 
 .founder {
     padding: 20px;
@@ -362,6 +371,7 @@ h1, h2 {
     font-size: 250%;
 }
 
+/* The flip card container */
 .flip-card {
     height: 300px;
     width: 333px;
@@ -369,7 +379,8 @@ h1, h2 {
     perspective: 1000px;
     float: left;
 }
-  
+
+/* The container to position the front and back side */
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -379,11 +390,13 @@ h1, h2 {
     transform-style: preserve-3d;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-  
+
+/* Horizontal flip when move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-  
+ 
+/* Position the front and back side */
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -391,17 +404,20 @@ h1, h2 {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-  
+
+/* Image inset at the front */
 .flip-card-front {
     background-color: #bbb;
 }
-  
+
+/* Style the back side */
 .flip-card-back {
     background-color: rgba(38, 22, 164, 0.6);
     color: white;
     transform: rotateY(180deg);
 }
 
+/* Styling for the side text element*/
 #founder-text {
     font-size: 24px;
     text-align: center;   
@@ -411,14 +427,17 @@ h1, h2 {
     padding-left: 30%;
 }
 
+/* media queries for the image*/
 #responsive{
     width: 333px;
     height: 300px;
 }
 
 
-/*     Calendar section     */
+/* Calendar section */
 
+
+/* Calendar is not responsive, future enhancment with JS interaction */
 #calendar {
     height: 750px;
     width: 100%;
@@ -426,6 +445,7 @@ h1, h2 {
     font-family: "Lilita One", sans-serif;    
 }
 
+/* Month header */
 .month {
     padding: 150px 25px;
     width: 100%;
@@ -440,6 +460,7 @@ h1, h2 {
     content:none;
 }
 
+/* Month list */
 .month ul {
     margin: 0;
     padding: 0; 
@@ -452,12 +473,14 @@ h1, h2 {
     letter-spacing: 3px;
     list-style: none;
 }
-  
+
+/* Previous button inside month header */
 .month .prev {
     float: left;
     padding-top: 10px;
 }
-  
+
+/* Next button */
 .month .next {
     float: right;
     padding-top: 10px;
@@ -467,7 +490,8 @@ h1, h2 {
     font-size: 130%;
     padding-left: 70px;
 }
-  
+
+/* Weekdays (Mon-Sun) */
 .weekdays {
     margin: 0;
     padding: 30px 0;
@@ -481,7 +505,8 @@ h1, h2 {
     color: black;
     text-align: center;
 }
-  
+
+/* Days (1-31) */
 .days {
     padding: 30px 0;
     background: #eee;
@@ -495,18 +520,21 @@ h1, h2 {
     text-align: center;
     margin-bottom: 5px;
     font-size:16px;
-    color: black;
+    color: rgb(78, 72, 72);
 }
-  
+
+/* Highlight the "current" day */
 .days li .active {
     padding: 5px;
-    background: turquoise;
+    background: #003763;
     color: white !important
 }
   
 
-/*      Sign up form section      */
+/* Sign up form section */
 
+
+/* Interactive form */
 #sign_up {
     font-family: sans-serif;
     color: #fff;
@@ -526,6 +554,7 @@ form h1 {
     font-size: 16px;
 }
 
+/* Full-width input fields */ 
 input[type=text], input[type=password] {
     width: 100%;
     padding: 15px;
@@ -557,7 +586,8 @@ input[type=email]:focus  {
 hr {
     margin-bottom: 25px;
 }
-  
+
+/* Set a style for all buttons */ 
 button {
     background-color: #208000;
     color: white;
@@ -572,37 +602,41 @@ button {
 button:hover {
     opacity:1;
 }
-  
+/* Extra styles for the cancel button */
 .cancelbtn {
     padding: 14px 20px;
     background-color: #800020;
 }
-  
+
+/* Float cancel and signup buttons and add an equal width */
 .cancelbtn, .signupbtn {
     float: left;
     width: 50%;
 }
-  
+
+/* Add padding to container elements */
 .container {
     padding: 10px;
     width: 70%;
     margin: auto;
 }
-  
+
+/* Clear floats */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
   
-/*  animation  for sign up heading */
+/* Animation for sign up heading */
 .animate__animated, .animate__bounce {
     --animate-duration: 5s;
     --animate-delay: 5s;
   }
   
 
-/*     Footer     */
+/*  Footer  */
+
 
 footer {
     background-color: #3a3a3a;
@@ -690,7 +724,7 @@ footer p {
     padding: 10px;
 }
 
-/* Media queries for navigation bar*/
+/* Media queries for navigation bar */
 
 @media screen and (max-width:650px){
     #menu{font-size: 100%;}

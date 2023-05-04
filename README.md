@@ -103,12 +103,17 @@ This website targets parents and children who want to learn more about coding.
 #### Solved Bugs
 
 * When I deployed my project to GitHUb Pages I discovered my projecet's favicon was not showing as website icon.
-* I discovered this was because I had absolute file path such as this in my code:
+     - I discovered this was because I had absolute file path such as this in my code.
+     - Removing the starting / fixed the problem.
 
       <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" style="border-radius:50%;">
 
-* Removing the starting / fixed the problem.
+* After adding thankyou.html page confirming form submision, new page was not loading.
+     - I discovered this again was absolute file path such thi in my code below.
+     - Removing / fixed the problem.
 
+      <form action="/thankyou.html" id="sign_up">
+      
 ### Validator Testing
 
 * HTML 
@@ -143,8 +148,10 @@ The live link can be found here -
 ### Content 
 * The layout of the website and content of README file was based on Ci [PP1 Sample Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/).
 * The code to make the Header, Reason Why and social media link was inspired on the CI [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/08-responsive-elements/05-responsive-gallery/index.html) Project.
-* The code for flip-card, calendar and sign up form was based on [W3S](https://www.w3schools.com/howto/howto_css_flip_card.asp).
+* The code for flip-card was based on [W3S](https://www.w3schools.com/howto/howto_css_flip_card.asp).
 * Animation for Sign Up text was taken from [Animate.css](https://animate.style/)
+* The code for sign up form was taken from [W3S](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_signup_form)
+* The code for the calendar was taken from [W3S](https://www.w3schools.com/howto/howto_css_calendar.asp)
 
 ### Media
 * The image for the favicon and logo icon was taken from [microsoft.com](https://www.microsoft.com/en-gb/p/like-a-dino/9nlpr8kqzz7c?activetab=pivot:overviewtab)
