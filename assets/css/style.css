@@ -49,7 +49,7 @@ h1, h2 {
 
 /* Styling logo icon*/
 #image-for-icon {
-    background: url(../images/favicon.webp) no-repeat center center;
+    background: url("../images/favicon.webp") no-repeat center center;
     height: 38px;
     width: 38px;
     border-radius: 50%;
@@ -103,7 +103,7 @@ h1, h2 {
     height: 650px;
     width: 100%;  
     margin-top: 50px;
-    background: url(../images/1658902821116.png) no-repeat center center;
+    background: url("../images/1658902821116.png") no-repeat center center;
     background-size: cover;
     overflow: hidden;
     position: relative;
@@ -244,7 +244,7 @@ h1, h2 {
 
 /* Styling for the container reason why*/
 .reason-why-text {
-    background-image: url(../images/navy-bg\ \(2\).webp);
+    background-image: url("../images/navy-bg\ \(2\).webp");
     background-size: contain;
     border: 10px double white;
     font-size: 28px;
@@ -317,7 +317,7 @@ h1, h2 {
 
 /* Styling of the background image*/
 #circle-cover-bg {
-    background: url(../images/kids_comp.webp) no-repeat center center;
+    background: url("../images/kids_comp.webp") no-repeat center center;
     background-size: contain;
     height: 100%;
     border-radius: 50%;
@@ -459,7 +459,7 @@ h1, h2 {
 .month {
     padding: 150px 25px;
     width: 100%;
-    background-image: url(../images/tech_2023_photo_by_miha_creative_on_shutterstock\ \(1\).webp);
+    background-image: url("../images/tech_2023_photo_by_miha_creative_on_shutterstock\ \(1\).webp");
     background-size: cover;
     text-align: left;
     list-style-type: none;
