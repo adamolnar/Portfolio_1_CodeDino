@@ -7,7 +7,7 @@ Users of this website can find out more about clubs Founder biography, the way t
 
 This website targets parents and children who want to learn more about coding. 
 
-![screenshot of media responsivnes](/assets/images/Screenshot_iamresposnive.webp)
+![screenshot of media responsivnes](/assets/screenshots/Screenshot_iamresposnive.webp)
 
 #
 
