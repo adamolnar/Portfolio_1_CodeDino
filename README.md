@@ -1,4 +1,4 @@
-![scrrenshot of Code Kidz logo](/assets/screenshots/cn..webp)
+![scrrenshot of Code Kidz logo](assets/readme_images/cn..webp)
 
 
 The Code Kidz website is a page for parents and children looking for more information about coding clubs for kids. This website listing main benefits for kids development while having fun coding and all their workshops are free of charge. 
@@ -7,7 +7,7 @@ Users of this website can find out more about clubs Founder biography, the way t
 
 This website targets parents and children who want to learn more about coding. 
 
-![screenshot of media responsivnes](/assets/screenshots/Screenshot_iamresposnive.webp)
+![screenshot of media responsivnes](assets/readme_images/Screenshot_iamresposnive.webp)
 
 #
 
@@ -20,7 +20,7 @@ This website targets parents and children who want to learn more about coding.
      - The navigation bar positioning is fixed which makes it accessible while scrolling down the page and easy to navigate in each section.
      - The naviagtion is in font color white and makes good contrast with the dark background color.
 
-![screenshot of navigation bar](/assets/screenshots/screenshot.logo%20-%20Copy.webp)
+![screenshot of navigation bar](assets/readme_images/screenshot.logo%20-%20Copy.webp)
 
 
 * The Header
@@ -31,7 +31,7 @@ This website targets parents and children who want to learn more about coding.
      - Those two text container are animated with zoom effect forward.
      - This section is linked with navigation bar / Home    
 
-![screenshot of primary image section](/assets/screenshots/Screenshot_primaryimage.webp)
+![screenshot of primary image section](assets/readme_images/Screenshot_primaryimage.webp)
 
 
 * The Main / The Reason Why Section
@@ -40,7 +40,7 @@ This website targets parents and children who want to learn more about coding.
      - The Reason Why Section is listing some of positive effects on kids development while learning how to code in the left and the right part.
      - At the center is placed circle container with background image off kids with computer.
 
-![screenshot of reason why section](/assets/screenshots/Screenshot_reasonwhy.webp)
+![screenshot of reason why section](assets/readme_images/Screenshot_reasonwhy.webp)
 
 
 * The Main / About Us Section 
@@ -49,7 +49,7 @@ This website targets parents and children who want to learn more about coding.
      - Each part explains why should user join the club, informs that classes are for free and teachers are recruited from best universities. Also in Feedback part is short opinion of the club from one of the parent, and in Why Us? part is more information about approach used in teaching kids of how to code.
      - This section is linked with navigation bar / About Us 
 
-![screenshot of about us section](/assets/screenshots/Screenshot_aboutus.webp)
+![screenshot of about us section](assets/readme_images/Screenshot_aboutus.webp)
 
 
 * The Main / About Us Section / Founder
@@ -58,7 +58,7 @@ This website targets parents and children who want to learn more about coding.
      - It contains flip-card: front side - image of the founder, and back side- name of the founder and her life motto.
      - On the right side from the founder image is more biography information of the founder.
 
-![screenshot of founder](/assets/screenshots/Screenshot_founder.webp)
+![screenshot of founder](assets/readme_images/Screenshot_founder.webp)
 
 
 * The Main / Calendar Section
@@ -67,7 +67,7 @@ This website targets parents and children who want to learn more about coding.
      - It shows summer month August where user can choose a day when to join club.
      - Calendar is not responsive to user as Javascript language is not required for this project.
 
-![screenshot of the calendar](/assets/screenshots/Screenshot_calendar.new.webp)
+![screenshot of the calendar](assets/readme_images/Screenshot_calendar.new.webp)
 
 
 * The Main / The Sign Up Form
@@ -78,7 +78,7 @@ This website targets parents and children who want to learn more about coding.
      - The Sign Up form is accessible from the navigation bar.
      
 
-![screenshot of sign up section](/assets/screenshots/Screenshot_form.webp)
+![screenshot of sign up section](assets/readme_images/Screenshot_form.webp)
 
 
 * The Footer
@@ -87,7 +87,7 @@ This website targets parents and children who want to learn more about coding.
      - The footer contains social media icons so users can find the Code Kidz club on Facebook, Instagram, Twitter and YouTube.
      - The contact section is valuable to the user as it gives the ability to find and contact the Code Kidz club if they need to. 
 
-![screenshot of the footer](/assets/screenshots/Screenshot_footer.webp)
+![screenshot of the footer](assets/readme_images/Screenshot_footer.webp)
 
 
 ### The Thank You for submission page
@@ -96,7 +96,7 @@ This website targets parents and children who want to learn more about coding.
 * This page contains navigation bar with links taking user back to the main page.
 * This page contains footer with Contact information and links to social media.
 
-![screenshot of the thankyou.html](/assets/screenshots/Screenshot_thankyou.webp)
+![screenshot of the thankyou.html](assets/readme_images/Screenshot_thankyou.webp)
 
 ## Testing 
 
@@ -141,7 +141,7 @@ This website targets parents and children who want to learn more about coding.
  * Accessibility 
      - I confirmed that the color and fonts chosen are easy to read and accessible by running it through Lighthouse in devtools:
 
-![ecreenshot of the lighthouse accessibility](/assets/screenshots/Screenshot_lighthouse.webp) 
+![ecreenshot of the lighthouse accessibility](assets/readme_images/Screenshot_lighthouse.webp) 
 
 ### Unfixed Bugs
 
