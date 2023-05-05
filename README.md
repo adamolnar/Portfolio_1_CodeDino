@@ -120,6 +120,16 @@ This website targets parents and children who want to learn more about coding.
      - Removing / fixed the problem.
 
       <form action="/thankyou.html" id="sign_up">
+
+* After adding thankyou.html page and coping head and footer the favicon and logo was not responsive. 
+
+     - I discovered i needed to change path by adding / before the assets and href="./index.html" instead of #praimary_image.
+
+      <link rel="icon" type="image/x-icon" href="assets/images/favicon.webp" style="border-radius:50%;">
+
+      <a href="#primary_image" aria-label="Go back to the top of the page">
+
+
       
 ### Validator Testing
 
