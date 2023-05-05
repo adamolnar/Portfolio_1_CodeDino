@@ -67,7 +67,7 @@ This website targets parents and children who want to learn more about coding.
      - It shows summer month August where user can choose a day when to join club.
      - Calendar is not responsive to user as Javascript language is not required for this project.
 
-![screenshot of the calendar](/assets/screenshots/Screenshot_calendar.webp)
+![screenshot of the calendar](/assets/screenshots/Screenshot_calendar.new.webp)
 
 
 * The Main / The Sign Up Form
@@ -89,7 +89,14 @@ This website targets parents and children who want to learn more about coding.
 
 ![screenshot of the footer](/assets/screenshots/Screenshot_footer.webp)
 
-#
+
+### The Thank You for submission page
+
+* This page is linked to Submit buttom in Sign up form and it confirms to user that form was filled and sent.
+* This page contains navigation bar with links taking user back to the main page.
+* This page contains footer with Contact information and links to social media.
+
+![screenshot of the thankyou.html](/assets/screenshots/Screenshot_thankyou.webp)
 
 ## Testing 
 
